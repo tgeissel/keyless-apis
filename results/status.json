@@ -1,0 +1,402 @@
+{
+  "generated": "2026-06-05T07:08:56.950Z",
+  "summary": {
+    "total": 30,
+    "up": 27,
+    "cors_ok": 25,
+    "cors_unknown": 3,
+    "cors_fail": 2
+  },
+  "results": [
+    {
+      "id": "open-meteo-forecast",
+      "name": "Open-Meteo",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.219Z",
+      "response_ms": 320,
+      "notes": ""
+    },
+    {
+      "id": "open-meteo-air-quality",
+      "name": "Open-Meteo Air Quality",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.109Z",
+      "response_ms": 244,
+      "notes": ""
+    },
+    {
+      "id": "nominatim-geocoding",
+      "name": "Nominatim OSM",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.176Z",
+      "response_ms": 401,
+      "notes": ""
+    },
+    {
+      "id": "rest-countries",
+      "name": "REST Countries",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.402Z",
+      "response_ms": 436,
+      "notes": ""
+    },
+    {
+      "id": "frankfurter-exchange",
+      "name": "Frankfurter",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.068Z",
+      "response_ms": 317,
+      "notes": ""
+    },
+    {
+      "id": "art-institute-chicago",
+      "name": "Art Institute Chicago",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.982Z",
+      "response_ms": 601,
+      "notes": ""
+    },
+    {
+      "id": "poetrydb",
+      "name": "PoetryDB",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.904Z",
+      "response_ms": 632,
+      "notes": ""
+    },
+    {
+      "id": "datamuse",
+      "name": "Datamuse",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.748Z",
+      "response_ms": 278,
+      "notes": ""
+    },
+    {
+      "id": "open-trivia-db",
+      "name": "Open Trivia DB",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:45.301Z",
+      "response_ms": 723,
+      "notes": ""
+    },
+    {
+      "id": "themealdb",
+      "name": "TheMealDB",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:44.750Z",
+      "response_ms": 176,
+      "notes": ""
+    },
+    {
+      "id": "thecocktaildb",
+      "name": "TheCocktailDB",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:45.142Z",
+      "response_ms": 269,
+      "notes": ""
+    },
+    {
+      "id": "numbers-api",
+      "name": "Numbers API",
+      "up": false,
+      "https": false,
+      "cors": {
+        "allowed": null,
+        "method": "unknown"
+      },
+      "last_checked": "2026-06-05T07:08:45.087Z",
+      "response_ms": 336,
+      "notes": "HTTP 404 (expected 200)"
+    },
+    {
+      "id": "bored-api",
+      "name": "Bored API",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": false,
+        "method": "playwright"
+      },
+      "last_checked": "2026-06-05T07:08:50.840Z",
+      "response_ms": 375,
+      "notes": ""
+    },
+    {
+      "id": "advice-slip",
+      "name": "Advice Slip",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:49.747Z",
+      "response_ms": 2148,
+      "notes": ""
+    },
+    {
+      "id": "cat-facts",
+      "name": "Cat Facts",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:45.620Z",
+      "response_ms": 261,
+      "notes": ""
+    },
+    {
+      "id": "dog-ceo",
+      "name": "Dog CEO",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:45.683Z",
+      "response_ms": 407,
+      "notes": ""
+    },
+    {
+      "id": "genderize",
+      "name": "Genderize",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:46.304Z",
+      "response_ms": 651,
+      "notes": ""
+    },
+    {
+      "id": "agify",
+      "name": "Agify",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:46.594Z",
+      "response_ms": 615,
+      "notes": ""
+    },
+    {
+      "id": "nationalize",
+      "name": "Nationalize",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:46.707Z",
+      "response_ms": 667,
+      "notes": ""
+    },
+    {
+      "id": "usgs-earthquakes",
+      "name": "USGS Earthquakes",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:47.114Z",
+      "response_ms": 294,
+      "notes": ""
+    },
+    {
+      "id": "iss-position",
+      "name": "ISS Position",
+      "up": true,
+      "https": false,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:47.737Z",
+      "response_ms": 376,
+      "notes": ""
+    },
+    {
+      "id": "nager-date",
+      "name": "Nager.Date",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:46.943Z",
+      "response_ms": 131,
+      "notes": ""
+    },
+    {
+      "id": "gutendex",
+      "name": "Gutendex",
+      "up": false,
+      "https": true,
+      "cors": {
+        "allowed": null,
+        "method": "unknown"
+      },
+      "last_checked": "2026-06-05T07:08:56.950Z",
+      "response_ms": 10007,
+      "notes": "timeout"
+    },
+    {
+      "id": "open-brewery-db",
+      "name": "Open Brewery DB",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:50.687Z",
+      "response_ms": 1630,
+      "notes": ""
+    },
+    {
+      "id": "fruityvice",
+      "name": "Fruityvice",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": false,
+        "method": "playwright"
+      },
+      "last_checked": "2026-06-05T07:08:50.945Z",
+      "response_ms": 2529,
+      "notes": ""
+    },
+    {
+      "id": "sunrise-sunset",
+      "name": "Sunrise Sunset",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:50.599Z",
+      "response_ms": 655,
+      "notes": ""
+    },
+    {
+      "id": "http-cat",
+      "name": "HTTP Cat",
+      "up": false,
+      "https": true,
+      "cors": {
+        "allowed": null,
+        "method": "unknown"
+      },
+      "last_checked": "2026-06-05T07:08:50.757Z",
+      "response_ms": 157,
+      "notes": "HTTP 200 (expected 404)"
+    },
+    {
+      "id": "free-dictionary",
+      "name": "Free Dictionary",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:51.108Z",
+      "response_ms": 92,
+      "notes": ""
+    },
+    {
+      "id": "jsonplaceholder",
+      "name": "JSONPlaceholder",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:51.261Z",
+      "response_ms": 118,
+      "notes": ""
+    },
+    {
+      "id": "random-user",
+      "name": "Random User",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T07:08:51.225Z",
+      "response_ms": 196,
+      "notes": ""
+    }
+  ]
+}

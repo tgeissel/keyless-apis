@@ -1,0 +1,99 @@
+# keyless-apis
+
+> The only list that **proves** every entry is alive today and actually works in a browser — automatically tested every week.
+
+A live-tested, machine-readable catalog of public APIs that (a) require no API key and (b) allow CORS for browser calls.
+
+**The difference vs. other lists:** We don't claim — we test. Every entry is verified by a real Playwright/Chromium browser fetch. Dead links and false CORS claims get caught automatically.
+
+<!-- BADGE:START -->
+![API Status](https://img.shields.io/badge/APIs-90%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
+<!-- BADGE:END -->
+
+## What's in the catalog
+
+- No API key required (ever — not even a free-tier key)
+- CORS verified by a real Chromium `fetch()` (not just header inspection)
+- Weekly CI tests via GitHub Actions
+- Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
+
+## API Status
+
+<!-- STATUS:START -->
+*Last generated: 2026-06-05T07:08:56.950Z — 27/30 APIs live, 25 CORS-verified*
+
+| Name | Category | CORS | Status | Last Checked |
+|------|----------|------|:------:|:------------:|
+| [Open-Meteo](https://open-meteo.com/en/docs) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Air Quality](https://open-meteo.com/en/docs/air-quality-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Nominatim OSM](https://nominatim.org/release-docs/latest/api/Search/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [REST Countries](https://restcountries.com/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Frankfurter](https://www.frankfurter.app/docs) | Finance | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Art Institute Chicago](https://api.artic.edu/docs/) | Art | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [PoetryDB](https://poetrydb.org/) | Literature | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Datamuse](https://www.datamuse.com/api/) | Language | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open Trivia DB](https://opentdb.com/api_config.php) | Trivia | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [TheMealDB](https://www.themealdb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Numbers API](http://numbersapi.com/) | Fun | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
+| [Bored API](https://bored-api.appbrewery.com/) | Fun | ❌ No *(playwright)* | 🟢 | 2026-06-05 |
+| [Advice Slip](https://api.adviceslip.com/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Cat Facts](https://catfact.ninja/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Dog CEO](https://dog.ceo/dog-api/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Genderize](https://genderize.io/) | Social | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Agify](https://agify.io/) | Social | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Nationalize](https://nationalize.io/) | Social | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [USGS Earthquakes](https://earthquake.usgs.gov/fdsnws/event/1/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [ISS Position](http://open-notify.org/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Nager.Date](https://date.nager.at/) | Calendar | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Gutendex](https://gutendex.com/) | Books | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
+| [Open Brewery DB](https://www.openbrewerydb.org/) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Fruityvice](https://www.fruityvice.com/) | Food | ❌ No *(playwright)* | 🟢 | 2026-06-05 |
+| [Sunrise Sunset](https://sunrise-sunset.org/api) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [HTTP Cat](https://http.cat/) | Fun | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
+| [Free Dictionary](https://dictionaryapi.dev/) | Language | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Random User](https://randomuser.me/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+<!-- STATUS:END -->
+
+## Usage
+
+```bash
+# Install dependencies
+npm install
+npx playwright install chromium
+
+# Run full check (header inspect + Playwright CORS verify)
+npm run check
+
+# Fast check (header-only, no browser launch)
+npm run check:header-only
+
+# Check specific APIs only
+npm run check -- --only-ids=open-meteo-forecast,rest-countries
+
+# Regenerate README status table from latest results
+npm run generate-readme
+```
+
+## How CORS is tested
+
+CORS is a browser-only policy — a server-side `curl` tells you nothing. We use a **hybrid approach**:
+
+1. **Header check** (fast): Send an `OPTIONS` preflight with `Origin: http://localhost`. If the response includes `Access-Control-Allow-Origin: *`, we mark it ✅ and skip the browser.
+2. **Playwright verify** (authoritative): For ambiguous cases, we spin up a local HTTP server, load a test page that `fetch()`es the target URL from Chromium, and catch any CORS errors. This is the ground truth.
+3. **Unknown**: If the API is down or times out, CORS result is `null` (not `false`).
+
+## How to add an API
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). One PR = one API entry in `data/apis.json`. CI runs the checker on your entry automatically — it's the quality gate.
+
+## Why this exists
+
+Other lists ([public-apis](https://github.com/public-apis/public-apis), blog posts) are static Markdown with dead links and unverified CORS claims. This repo tests itself.
+
+**The moat is the automation, not the data.**
+
+## License
+
+MIT

@@ -1,0 +1,18 @@
+{
+  "name": "keyless-apis",
+  "version": "1.0.0",
+  "description": "Live-tested catalog of keyless, CORS-enabled public APIs",
+  "type": "module",
+  "scripts": {
+    "check": "tsx checker/index.ts",
+    "check:header-only": "tsx checker/index.ts --header-only",
+    "generate-readme": "tsx checker/generate-readme.ts",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "playwright": "^1.44.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}

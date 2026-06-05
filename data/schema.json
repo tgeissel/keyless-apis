@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "keyless-apis catalog",
+  "type": "object",
+  "required": ["apis"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "apis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "category", "description", "test_url", "docs_url", "https", "auth", "expects"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Unique kebab-case identifier"
+          },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "description": { "type": "string" },
+          "test_url": { "type": "string", "format": "uri" },
+          "docs_url": { "type": "string", "format": "uri" },
+          "https": { "type": "boolean" },
+          "auth": { "type": "string", "enum": ["none"] },
+          "expects": {
+            "type": "object",
+            "required": ["status", "content_type"],
+            "additionalProperties": false,
+            "properties": {
+              "status": { "type": "integer", "minimum": 100, "maximum": 599 },
+              "content_type": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
