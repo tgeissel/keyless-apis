@@ -77,16 +77,28 @@ async function main() {
   const color = pct >= 80 ? 'brightgreen' : pct >= 50 ? 'yellow' : 'red';
   const badgeLine = `![API Status](https://img.shields.io/badge/APIs-${pct}%25%20live-${color})  ![Last Check](https://img.shields.io/badge/last%20check-${status.generated.slice(0, 10).replace(/-/g, '--')}-blue)`;
 
-  const tableRows = status.results.map(r => {
-    const entry = apiMap.get(r.id);
-    const nameLink = entry ? `[${entry.name}](${entry.docs_url})` : r.name;
-    const category = entry?.category ?? '';
-    return `| ${nameLink} | ${category} | ${corsLabel(r.cors.allowed, r.cors.method)} | ${upEmoji(r.up)} | ${formatDate(r.last_checked)} |`;
-  });
+  // Group by category, sorted alphabetically
+  const grouped = new Map<string, typeof status.results>();
+  for (const r of status.results) {
+    const cat = apiMap.get(r.id)?.category ?? 'Other';
+    if (!grouped.has(cat)) grouped.set(cat, []);
+    grouped.get(cat)!.push(r);
+  }
+  const sortedCategories = [...grouped.keys()].sort();
+
+  const tableRows: string[] = [];
+  for (const cat of sortedCategories) {
+    tableRows.push(`| **${cat}** | | | | |`);
+    for (const r of grouped.get(cat)!) {
+      const entry = apiMap.get(r.id);
+      const nameLink = entry ? `[${entry.name}](${entry.docs_url})` : r.name;
+      tableRows.push(`| ${nameLink} | | ${corsLabel(r.cors.allowed, r.cors.method)} | ${upEmoji(r.up)} | ${formatDate(r.last_checked)} |`);
+    }
+  }
 
   const table = [
-    '| Name | Category | CORS | Status | Last Checked |',
-    '|------|----------|------|:------:|:------------:|',
+    '| Name | | CORS | Status | Last Checked |',
+    '|------|---|------|:------:|:------------:|',
     ...tableRows,
   ].join('\n');
 
