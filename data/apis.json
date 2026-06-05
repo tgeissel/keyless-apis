@@ -350,6 +350,104 @@
         "status": 200,
         "content_type": "application/json"
       }
+    },
+    {
+      "id": "open-library",
+      "name": "Open Library",
+      "category": "Books",
+      "description": "Buchmetadaten von Internet Archive",
+      "test_url": "https://openlibrary.org/api/books?bibkeys=ISBN:9780140328721&format=json&jscmd=data",
+      "docs_url": "https://openlibrary.org/developers/api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "github-zen",
+      "name": "GitHub Zen",
+      "category": "Dev",
+      "description": "Zufälliger GitHub-Designspruch",
+      "test_url": "https://api.github.com/zen",
+      "docs_url": "https://docs.github.com/en/rest",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "text/plain"
+      }
+    },
+    {
+      "id": "wttr-in",
+      "name": "wttr.in",
+      "category": "Weather",
+      "description": "Wetterdaten im JSON-Format",
+      "test_url": "https://wttr.in/Berlin?format=j1",
+      "docs_url": "https://wttr.in/:help",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "open-food-facts",
+      "name": "Open Food Facts",
+      "category": "Food",
+      "description": "Nährwerte und Inhaltsstoffe von Lebensmitteln",
+      "test_url": "https://world.openfoodfacts.org/api/v0/product/737628064502.json",
+      "docs_url": "https://world.openfoodfacts.org/data",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "jikan",
+      "name": "Jikan",
+      "category": "Entertainment",
+      "description": "MyAnimeList-Daten ohne Key",
+      "test_url": "https://api.jikan.moe/v4/random/anime",
+      "docs_url": "https://jikan.moe/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "zippopotam",
+      "name": "Zippopotam",
+      "category": "Geo",
+      "description": "Postleitzahlen und Ortsdaten weltweit",
+      "test_url": "https://api.zippopotam.us/de/10115",
+      "docs_url": "https://www.zippopotam.us/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "ip-api",
+      "name": "ip-api",
+      "category": "Network",
+      "description": "IP-Geolokalisierung, nur HTTP auf Free-Tier",
+      "test_url": "http://ip-api.com/json/8.8.8.8",
+      "docs_url": "https://ip-api.com/docs",
+      "https": false,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     }
   ]
 }
