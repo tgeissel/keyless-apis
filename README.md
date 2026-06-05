@@ -1,21 +1,12 @@
 # keyless-apis
 
-> The only list that **proves** every entry is alive today and actually works in a browser — automatically tested every week.
-
-A live-tested, machine-readable catalog of public APIs that (a) require no API key and (b) allow CORS for browser calls.
-
-**The difference vs. other lists:** We don't claim — we test. Every entry is verified by a real Playwright/Chromium browser fetch. Dead links and false CORS claims get caught automatically.
+A catalog of public APIs that require no API key and support CORS for browser use. Every entry is automatically tested weekly — uptime, HTTPS, and a real browser `fetch()` for CORS.
 
 <!-- BADGE:START -->
 ![API Status](https://img.shields.io/badge/APIs-90%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
 <!-- BADGE:END -->
 
-## What's in the catalog
-
-- No API key required (ever — not even a free-tier key)
-- CORS verified by a real Chromium `fetch()` (not just header inspection)
-- Weekly CI tests via GitHub Actions
-- Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
+Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
 
 ## API Status
 
@@ -78,21 +69,16 @@ npm run generate-readme
 
 ## How CORS is tested
 
-CORS is a browser-only policy — a server-side `curl` tells you nothing. We use a **hybrid approach**:
+CORS is browser-only — a server-side curl tells you nothing. Two steps:
 
-1. **Header check** (fast): Send an `OPTIONS` preflight with `Origin: http://localhost`. If the response includes `Access-Control-Allow-Origin: *`, we mark it ✅ and skip the browser.
-2. **Playwright verify** (authoritative): For ambiguous cases, we spin up a local HTTP server, load a test page that `fetch()`es the target URL from Chromium, and catch any CORS errors. This is the ground truth.
-3. **Unknown**: If the API is down or times out, CORS result is `null` (not `false`).
+1. **Header check**: OPTIONS preflight with `Origin: http://localhost`. If `Access-Control-Allow-Origin: *` comes back, done.
+2. **Playwright verify**: For ambiguous cases, a headless Chromium runs a real `fetch()` and catches CORS errors.
 
-## How to add an API
+Timeouts are stored as `unknown`, not `false`.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). One PR = one API entry in `data/apis.json`. CI runs the checker on your entry automatically — it's the quality gate.
+## Contributing
 
-## Why this exists
-
-Other lists ([public-apis](https://github.com/public-apis/public-apis), blog posts) are static Markdown with dead links and unverified CORS claims. This repo tests itself.
-
-**The moat is the automation, not the data.**
+See [CONTRIBUTING.md](CONTRIBUTING.md). One PR = one entry in `data/apis.json`. CI checks it automatically.
 
 ## License
 
