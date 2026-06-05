@@ -1,0 +1,95 @@
+name: Validate PR
+
+on:
+  pull_request:
+    paths:
+      - 'data/apis.json'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Check exactly one new API added
+        id: check_count
+        run: |
+          BASE=$(git show origin/${{ github.base_ref }}:data/apis.json)
+          HEAD=$(cat data/apis.json)
+
+          BASE_COUNT=$(echo "$BASE" | node -e "const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf-8')); process.stdout.write(String(d.apis.length))")
+          HEAD_COUNT=$(echo "$HEAD" | node -e "const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf-8')); process.stdout.write(String(d.apis.length))")
+          DIFF=$((HEAD_COUNT - BASE_COUNT))
+
+          echo "base_count=$BASE_COUNT" >> $GITHUB_OUTPUT
+          echo "head_count=$HEAD_COUNT" >> $GITHUB_OUTPUT
+          echo "diff=$DIFF" >> $GITHUB_OUTPUT
+
+          if [ "$DIFF" -ne 1 ]; then
+            echo "❌ Expected exactly 1 new API, got $DIFF (was $BASE_COUNT, now $HEAD_COUNT)"
+            exit 1
+          fi
+          echo "✅ Exactly 1 new API added ($BASE_COUNT → $HEAD_COUNT)"
+
+      - name: Validate JSON schema
+        run: |
+          node -e "
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/apis.json', 'utf-8'));
+          const required = ['id','name','category','description','test_url','docs_url','https','auth','expects'];
+          let errors = [];
+          data.apis.forEach((api, i) => {
+            required.forEach(field => {
+              if (api[field] === undefined) errors.push('Entry ' + i + ' (' + (api.id||'?') + '): missing field: ' + field);
+            });
+            if (api.auth !== 'none') errors.push('Entry ' + (api.id||i) + ': auth must be \"none\"');
+            if (typeof api.https !== 'boolean') errors.push('Entry ' + (api.id||i) + ': https must be boolean');
+            if (!api.expects?.status || !api.expects?.content_type) errors.push('Entry ' + (api.id||i) + ': expects.status and expects.content_type required');
+            if (!/^[a-z0-9-]+$/.test(api.id||'')) errors.push('Entry ' + (api.id||i) + ': id must be kebab-case');
+          });
+          const ids = data.apis.map(a => a.id);
+          const dupes = ids.filter((id, i) => ids.indexOf(id) !== i);
+          if (dupes.length) errors.push('Duplicate IDs: ' + dupes.join(', '));
+          if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
+          console.log('✅ Schema valid, ' + data.apis.length + ' entries, no duplicates');
+          "
+
+      - name: Run checker on new API only
+        run: |
+          npm ci
+          npx playwright install chromium --with-deps
+
+          # Find the new API id
+          BASE=$(git show origin/${{ github.base_ref }}:data/apis.json)
+          BASE_IDS=$(echo "$BASE" | node -e "const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf-8')); process.stdout.write(d.apis.map(a=>a.id).join(','))")
+          NEW_ID=$(node -e "
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/apis.json', 'utf-8'));
+          const baseIds = '$BASE_IDS'.split(',');
+          const newApi = data.apis.find(a => !baseIds.includes(a.id));
+          process.stdout.write(newApi ? newApi.id : '');
+          ")
+
+          echo "Checking new API: $NEW_ID"
+          npm run check -- --only-ids=$NEW_ID
+
+          # Fail if not up or CORS blocked
+          node -e "
+          const fs = require('fs');
+          const status = JSON.parse(fs.readFileSync('results/status.json', 'utf-8'));
+          const result = status.results[0];
+          if (!result.up) { console.error('❌ API is down: ' + result.notes); process.exit(1); }
+          if (result.cors.allowed === false) { console.error('❌ CORS blocked — this API cannot be used from a browser'); process.exit(1); }
+          if (result.cors.allowed === null) { console.warn('⚠️  CORS unknown (timeout?) — consider checking manually'); }
+          console.log('✅ API is up, CORS: ' + (result.cors.allowed === true ? 'OK' : 'unknown'));
+          "
