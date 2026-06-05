@@ -11,7 +11,7 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 ## API Status
 
 <!-- STATUS:START -->
-*Last generated: 2026-06-05T17:02:41.182Z — 42/42 APIs live, 42 CORS-verified*
+*Last generated: 2026-06-05T17:06:02.793Z — 63/63 APIs live, 63 CORS-verified*
 
 | Name | Category | CORS | Status | Last Checked |
 |------|----------|------|:------:|:------------:|
@@ -57,6 +57,27 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [ExchangeRate-API](https://www.exchangerate-api.com/docs/free) | Finance | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) | Knowledge | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Wikidata](https://www.wikidata.org/w/api.php) | Knowledge | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Flood](https://open-meteo.com/en/docs/flood-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [ipinfo.io](https://ipinfo.io/developers) | Network | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [REST Countries v2](https://restcountries.com/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [SpaceX API](https://github.com/r-spacex/SpaceX-API) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open Notify Astronauts](http://open-notify.org/Open-Notify-API/People-In-Space/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [httpbin](https://httpbin.org/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [UUID API](https://www.uuidtools.com/api) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Carbon Intensity UK](https://carbon-intensity.github.io/api-definitions/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) | Music | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [iTunes Search](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/) | Music | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [CoinGecko](https://www.coingecko.com/en/api/documentation) | Finance | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Lorem Picsum](https://picsum.photos/) | Images | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [RoboHash](https://robohash.org/) | Images | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open Trivia Categories](https://opentdb.com/api_config.php) | Trivia | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [disease.sh](https://disease.sh/) | Health | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Kanye.rest](https://kanye.rest/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Useless Facts](https://uselessfacts.jsph.pl/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Dog Facts](https://dogapi.dog/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Historical](https://open-meteo.com/en/docs/historical-weather-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [The Color API](https://www.thecolorapi.com/) | Design | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 <!-- STATUS:END -->
 
 ## Usage

@@ -588,6 +588,300 @@
         "status": 200,
         "content_type": "application/json"
       }
+    },
+    {
+      "id": "open-meteo-flood",
+      "name": "Open-Meteo Flood",
+      "category": "Weather",
+      "description": "Hochwasservorhersage ohne Key",
+      "test_url": "https://flood-api.open-meteo.com/v1/flood?latitude=52.5&longitude=13.4&daily=river_discharge",
+      "docs_url": "https://open-meteo.com/en/docs/flood-api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "ipinfo",
+      "name": "ipinfo.io",
+      "category": "Network",
+      "description": "IP-Geolokalisierung und ASN-Daten",
+      "test_url": "https://ipinfo.io/8.8.8.8/json",
+      "docs_url": "https://ipinfo.io/developers",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "countryapi",
+      "name": "REST Countries v2",
+      "category": "Geo",
+      "description": "Alternative Länderdaten-API",
+      "test_url": "https://restcountries.com/v3.1/region/europe?fields=name,capital",
+      "docs_url": "https://restcountries.com/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX API",
+      "category": "Science",
+      "description": "SpaceX-Starts, Raketen und Kapseln",
+      "test_url": "https://api.spacexdata.com/v4/launches/latest",
+      "docs_url": "https://github.com/r-spacex/SpaceX-API",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "open-notify-astros",
+      "name": "Open Notify Astronauts",
+      "category": "Science",
+      "description": "Personen aktuell im Weltraum",
+      "test_url": "http://api.open-notify.org/astros.json",
+      "docs_url": "http://open-notify.org/Open-Notify-API/People-In-Space/",
+      "https": false,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "httpbin",
+      "name": "httpbin",
+      "category": "Dev",
+      "description": "HTTP-Test-Endpunkte für Entwickler",
+      "test_url": "https://httpbin.org/get",
+      "docs_url": "https://httpbin.org/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "uuid-rocks",
+      "name": "UUID API",
+      "category": "Dev",
+      "description": "UUID-Generierung per API",
+      "test_url": "https://www.uuidtools.com/api/generate/v4",
+      "docs_url": "https://www.uuidtools.com/api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "carbon-intensity",
+      "name": "Carbon Intensity UK",
+      "category": "Science",
+      "description": "CO2-Intensität des britischen Stromnetzes",
+      "test_url": "https://api.carbonintensity.org.uk/intensity",
+      "docs_url": "https://carbon-intensity.github.io/api-definitions/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "musicbrainz",
+      "name": "MusicBrainz",
+      "category": "Music",
+      "description": "Musikdatenbank mit Künstlern und Releases",
+      "test_url": "https://musicbrainz.org/ws/2/artist/?query=beethoven&fmt=json",
+      "docs_url": "https://musicbrainz.org/doc/MusicBrainz_API",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "itunes",
+      "name": "iTunes Search",
+      "category": "Music",
+      "description": "Apple iTunes Musik- und Podcast-Suche",
+      "test_url": "https://itunes.apple.com/search?term=radiohead&limit=1",
+      "docs_url": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "text/javascript"
+      }
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "category": "Finance",
+      "description": "Krypto-Marktdaten ohne Key",
+      "test_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "docs_url": "https://www.coingecko.com/en/api/documentation",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "picsum",
+      "name": "Lorem Picsum",
+      "category": "Images",
+      "description": "Zufällige Platzhalterbilder",
+      "test_url": "https://picsum.photos/v2/list?limit=1",
+      "docs_url": "https://picsum.photos/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "robohash",
+      "name": "RoboHash",
+      "category": "Images",
+      "description": "Einzigartige Roboter-Avatare per Hash",
+      "test_url": "https://robohash.org/test.png?size=50x50",
+      "docs_url": "https://robohash.org/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "image/png"
+      }
+    },
+    {
+      "id": "opentdb-categories",
+      "name": "Open Trivia Categories",
+      "category": "Trivia",
+      "description": "Alle verfügbaren Quiz-Kategorien",
+      "test_url": "https://opentdb.com/api_category.php",
+      "docs_url": "https://opentdb.com/api_config.php",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "disease-sh",
+      "name": "disease.sh",
+      "category": "Health",
+      "description": "COVID-19 und Krankheitsdaten weltweit",
+      "test_url": "https://disease.sh/v3/covid-19/all",
+      "docs_url": "https://disease.sh/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "ron-swanson",
+      "name": "Ron Swanson Quotes",
+      "category": "Fun",
+      "description": "Zitate von Ron Swanson aus Parks & Rec",
+      "test_url": "https://ron-swanson-quotes.herokuapp.com/v2/quotes",
+      "docs_url": "https://github.com/jamesseanwright/ron-swanson-quotes",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "kanye-rest",
+      "name": "Kanye.rest",
+      "category": "Fun",
+      "description": "Zufällige Kanye-West-Zitate",
+      "test_url": "https://api.kanye.rest/",
+      "docs_url": "https://kanye.rest/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "uselessfacts",
+      "name": "Useless Facts",
+      "category": "Fun",
+      "description": "Zufällige nutzlose Fakten",
+      "test_url": "https://uselessfacts.jsph.pl/api/v2/facts/random",
+      "docs_url": "https://uselessfacts.jsph.pl/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "dog-facts",
+      "name": "Dog Facts",
+      "category": "Animals",
+      "description": "Fakten über Hunde",
+      "test_url": "https://dogapi.dog/api/v2/facts?limit=1",
+      "docs_url": "https://dogapi.dog/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "open-meteo-historical",
+      "name": "Open-Meteo Historical",
+      "category": "Weather",
+      "description": "Historische Wetterdaten seit 1940",
+      "test_url": "https://archive-api.open-meteo.com/v1/archive?latitude=52.5&longitude=13.4&start_date=2024-01-01&end_date=2024-01-02&daily=temperature_2m_max",
+      "docs_url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "colorcombinations",
+      "name": "The Color API",
+      "category": "Design",
+      "description": "Farb-Infos, Namen und Komplementärfarben",
+      "test_url": "https://www.thecolorapi.com/id?hex=3498db",
+      "docs_url": "https://www.thecolorapi.com/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     }
   ]
 }
