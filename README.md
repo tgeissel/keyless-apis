@@ -3,7 +3,7 @@
 A catalog of public APIs that require no API key and support CORS for browser use. Every entry is automatically tested weekly — uptime, HTTPS, and a real browser `fetch()` for CORS.
 
 <!-- BADGE:START -->
-![API Status](https://img.shields.io/badge/APIs-94%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
+![API Status](https://img.shields.io/badge/APIs-100%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
 <!-- BADGE:END -->
 
 Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
@@ -11,7 +11,7 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 ## API Status
 
 <!-- STATUS:START -->
-*Last generated: 2026-06-05T11:34:24.008Z — 30/32 APIs live, 30 CORS-verified*
+*Last generated: 2026-06-05T17:02:41.182Z — 42/42 APIs live, 42 CORS-verified*
 
 | Name | Category | CORS | Status | Last Checked |
 |------|----------|------|:------:|:------------:|
@@ -20,9 +20,9 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Nominatim OSM](https://nominatim.org/release-docs/latest/api/Search/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [REST Countries](https://restcountries.com/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Frankfurter](https://www.frankfurter.app/docs) | Finance | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Art Institute Chicago](https://api.artic.edu/docs/) | Art | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
+| [Art Institute Chicago](https://api.artic.edu/docs/) | Art | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [PoetryDB](https://poetrydb.org/) | Literature | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Datamuse](https://www.datamuse.com/api/) | Language | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
+| [Datamuse](https://www.datamuse.com/api/) | Language | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Open Trivia DB](https://opentdb.com/api_config.php) | Trivia | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [TheMealDB](https://www.themealdb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
@@ -47,6 +47,16 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Jikan](https://jikan.moe/) | Entertainment | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Zippopotam](https://www.zippopotam.us/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [ip-api](https://ip-api.com/docs) | Network | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Marine](https://open-meteo.com/en/docs/marine-weather-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Deck of Cards](https://deckofcardsapi.com/) | Games | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Countries Now](https://countriesnow.space/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Chuck Norris Jokes](https://api.chucknorris.io/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [JokeAPI](https://jokeapi.dev/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Official Joke API](https://github.com/15Dkatz/official_joke_api) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [ExchangeRate-API](https://www.exchangerate-api.com/docs/free) | Finance | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) | Knowledge | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Wikidata](https://www.wikidata.org/w/api.php) | Knowledge | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 <!-- STATUS:END -->
 
 ## Usage

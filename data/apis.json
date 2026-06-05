@@ -448,6 +448,146 @@
         "status": 200,
         "content_type": "application/json"
       }
+    },
+    {
+      "id": "open-meteo-marine",
+      "name": "Open-Meteo Marine",
+      "category": "Weather",
+      "description": "Wellenhöhe und Meerestemperatur ohne Key",
+      "test_url": "https://marine-api.open-meteo.com/v1/marine?latitude=54.5&longitude=10.0&hourly=wave_height",
+      "docs_url": "https://open-meteo.com/en/docs/marine-weather-api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "deckofcards",
+      "name": "Deck of Cards",
+      "category": "Games",
+      "description": "Kartendeck-API für Spiele",
+      "test_url": "https://deckofcardsapi.com/api/deck/new/",
+      "docs_url": "https://deckofcardsapi.com/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "countriesnow",
+      "name": "Countries Now",
+      "category": "Geo",
+      "description": "Städte und Bevölkerungsdaten per Land",
+      "test_url": "https://countriesnow.space/api/v0.1/countries",
+      "docs_url": "https://countriesnow.space/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "chucknorris",
+      "name": "Chuck Norris Jokes",
+      "category": "Fun",
+      "description": "Zufällige Chuck-Norris-Fakten",
+      "test_url": "https://api.chucknorris.io/jokes/random",
+      "docs_url": "https://api.chucknorris.io/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "jokeapi",
+      "name": "JokeAPI",
+      "category": "Fun",
+      "description": "Programmierer- und allgemeine Witze",
+      "test_url": "https://v2.jokeapi.dev/joke/Any",
+      "docs_url": "https://jokeapi.dev/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "official-joke",
+      "name": "Official Joke API",
+      "category": "Fun",
+      "description": "Einfache Witz-API",
+      "test_url": "https://official-joke-api.appspot.com/random_joke",
+      "docs_url": "https://github.com/15Dkatz/official_joke_api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "open-meteo-geocoding",
+      "name": "Open-Meteo Geocoding",
+      "category": "Geo",
+      "description": "Ortssuche via Open-Meteo ohne Key",
+      "test_url": "https://geocoding-api.open-meteo.com/v1/search?name=Berlin&count=1",
+      "docs_url": "https://open-meteo.com/en/docs/geocoding-api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "exchangerate-api",
+      "name": "ExchangeRate-API",
+      "category": "Finance",
+      "description": "Aktuelle Wechselkurse, kein Key nötig",
+      "test_url": "https://open.er-api.com/v6/latest/USD",
+      "docs_url": "https://www.exchangerate-api.com/docs/free",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "mediawiki",
+      "name": "Wikipedia API",
+      "category": "Knowledge",
+      "description": "Wikipedia-Artikel und Suche",
+      "test_url": "https://en.wikipedia.org/w/api.php?action=query&titles=Berlin&prop=extracts&exintro&format=json&origin=*",
+      "docs_url": "https://www.mediawiki.org/wiki/API:Main_page",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata",
+      "category": "Knowledge",
+      "description": "Strukturiertes Wissen aus Wikidata",
+      "test_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q64&format=json&origin=*",
+      "docs_url": "https://www.wikidata.org/w/api.php",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     }
   ]
 }

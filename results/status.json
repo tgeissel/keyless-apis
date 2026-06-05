@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-05T11:34:24.008Z",
+  "generated": "2026-06-05T17:02:41.182Z",
   "summary": {
-    "total": 32,
-    "up": 30,
-    "cors_ok": 30,
-    "cors_unknown": 2,
+    "total": 42,
+    "up": 42,
+    "cors_ok": 42,
+    "cors_unknown": 0,
     "cors_fail": 0
   },
   "results": [
@@ -17,8 +17,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.664Z",
-      "response_ms": 445,
+      "last_checked": "2026-06-05T17:02:24.666Z",
+      "response_ms": 428,
       "notes": ""
     },
     {
@@ -30,8 +30,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.720Z",
-      "response_ms": 477,
+      "last_checked": "2026-06-05T17:02:24.508Z",
+      "response_ms": 404,
       "notes": ""
     },
     {
@@ -43,8 +43,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.535Z",
-      "response_ms": 535,
+      "last_checked": "2026-06-05T17:02:25.077Z",
+      "response_ms": 2070,
       "notes": ""
     },
     {
@@ -56,8 +56,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.128Z",
-      "response_ms": 119,
+      "last_checked": "2026-06-05T17:02:25.080Z",
+      "response_ms": 2075,
       "notes": ""
     },
     {
@@ -69,22 +69,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.384Z",
-      "response_ms": 264,
+      "last_checked": "2026-06-05T17:02:24.664Z",
+      "response_ms": 2150,
       "notes": ""
     },
     {
       "id": "art-institute-chicago",
       "name": "Art Institute Chicago",
-      "up": false,
+      "up": true,
       "https": true,
       "cors": {
-        "allowed": null,
-        "method": "unknown"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.288Z",
-      "response_ms": 160,
-      "notes": "HTTP 403 (expected 200)"
+      "last_checked": "2026-06-05T17:02:25.989Z",
+      "response_ms": 903,
+      "notes": ""
     },
     {
       "id": "poetrydb",
@@ -95,22 +95,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.506Z",
-      "response_ms": 163,
+      "last_checked": "2026-06-05T17:02:25.740Z",
+      "response_ms": 751,
       "notes": ""
     },
     {
       "id": "datamuse",
       "name": "Datamuse",
-      "up": false,
+      "up": true,
       "https": true,
       "cors": {
-        "allowed": null,
-        "method": "unknown"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.487Z",
-      "response_ms": 103,
-      "notes": "HTTP 403 (expected 200)"
+      "last_checked": "2026-06-05T17:02:25.572Z",
+      "response_ms": 408,
+      "notes": ""
     },
     {
       "id": "open-trivia-db",
@@ -121,8 +121,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.855Z",
-      "response_ms": 156,
+      "last_checked": "2026-06-05T17:02:27.800Z",
+      "response_ms": 664,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.942Z",
-      "response_ms": 241,
+      "last_checked": "2026-06-05T17:02:25.671Z",
+      "response_ms": 328,
       "notes": ""
     },
     {
@@ -147,8 +147,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.018Z",
-      "response_ms": 219,
+      "last_checked": "2026-06-05T17:02:27.785Z",
+      "response_ms": 331,
       "notes": ""
     },
     {
@@ -160,8 +160,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.754Z",
-      "response_ms": 560,
+      "last_checked": "2026-06-05T17:02:39.063Z",
+      "response_ms": 5267,
       "notes": ""
     },
     {
@@ -173,8 +173,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:18.914Z",
-      "response_ms": 153,
+      "last_checked": "2026-06-05T17:02:27.957Z",
+      "response_ms": 1925,
       "notes": ""
     },
     {
@@ -186,8 +186,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.304Z",
-      "response_ms": 282,
+      "last_checked": "2026-06-05T17:02:27.960Z",
+      "response_ms": 1799,
       "notes": ""
     },
     {
@@ -199,8 +199,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.254Z",
-      "response_ms": 147,
+      "last_checked": "2026-06-05T17:02:29.026Z",
+      "response_ms": 751,
       "notes": ""
     },
     {
@@ -212,8 +212,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.373Z",
-      "response_ms": 292,
+      "last_checked": "2026-06-05T17:02:29.100Z",
+      "response_ms": 816,
       "notes": ""
     },
     {
@@ -225,8 +225,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.329Z",
-      "response_ms": 168,
+      "last_checked": "2026-06-05T17:02:29.145Z",
+      "response_ms": 740,
       "notes": ""
     },
     {
@@ -238,8 +238,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.078Z",
-      "response_ms": 503,
+      "last_checked": "2026-06-05T17:02:28.614Z",
+      "response_ms": 492,
       "notes": ""
     },
     {
@@ -251,8 +251,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:24.008Z",
-      "response_ms": 4457,
+      "last_checked": "2026-06-05T17:02:38.755Z",
+      "response_ms": 3535,
       "notes": ""
     },
     {
@@ -264,8 +264,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.715Z",
-      "response_ms": 255,
+      "last_checked": "2026-06-05T17:02:31.163Z",
+      "response_ms": 246,
       "notes": ""
     },
     {
@@ -277,8 +277,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.119Z",
-      "response_ms": 478,
+      "last_checked": "2026-06-05T17:02:32.328Z",
+      "response_ms": 2475,
       "notes": ""
     },
     {
@@ -290,8 +290,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.037Z",
-      "response_ms": 278,
+      "last_checked": "2026-06-05T17:02:31.489Z",
+      "response_ms": 2016,
       "notes": ""
     },
     {
@@ -303,8 +303,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:19.879Z",
-      "response_ms": 78,
+      "last_checked": "2026-06-05T17:02:32.003Z",
+      "response_ms": 410,
       "notes": ""
     },
     {
@@ -316,8 +316,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.033Z",
-      "response_ms": 121,
+      "last_checked": "2026-06-05T17:02:32.069Z",
+      "response_ms": 338,
       "notes": ""
     },
     {
@@ -329,8 +329,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.151Z",
-      "response_ms": 79,
+      "last_checked": "2026-06-05T17:02:32.559Z",
+      "response_ms": 228,
       "notes": ""
     },
     {
@@ -342,8 +342,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:21.201Z",
-      "response_ms": 617,
+      "last_checked": "2026-06-05T17:02:35.193Z",
+      "response_ms": 2333,
       "notes": ""
     },
     {
@@ -355,8 +355,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.140Z",
-      "response_ms": 38,
+      "last_checked": "2026-06-05T17:02:34.694Z",
+      "response_ms": 319,
       "notes": ""
     },
     {
@@ -368,8 +368,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:20.936Z",
-      "response_ms": 406,
+      "last_checked": "2026-06-05T17:02:34.874Z",
+      "response_ms": 2062,
       "notes": ""
     },
     {
@@ -381,8 +381,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:21.295Z",
-      "response_ms": 771,
+      "last_checked": "2026-06-05T17:02:35.281Z",
+      "response_ms": 339,
       "notes": ""
     },
     {
@@ -394,8 +394,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:21.227Z",
-      "response_ms": 712,
+      "last_checked": "2026-06-05T17:02:35.614Z",
+      "response_ms": 482,
       "notes": ""
     },
     {
@@ -407,8 +407,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:21.102Z",
-      "response_ms": 103,
+      "last_checked": "2026-06-05T17:02:37.690Z",
+      "response_ms": 412,
       "notes": ""
     },
     {
@@ -420,8 +420,138 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:34:21.165Z",
-      "response_ms": 32,
+      "last_checked": "2026-06-05T17:02:35.684Z",
+      "response_ms": 244,
+      "notes": ""
+    },
+    {
+      "id": "open-meteo-marine",
+      "name": "Open-Meteo Marine",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:37.917Z",
+      "response_ms": 396,
+      "notes": ""
+    },
+    {
+      "id": "deckofcards",
+      "name": "Deck of Cards",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:37.985Z",
+      "response_ms": 2011,
+      "notes": ""
+    },
+    {
+      "id": "countriesnow",
+      "name": "Countries Now",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:38.483Z",
+      "response_ms": 389,
+      "notes": ""
+    },
+    {
+      "id": "chucknorris",
+      "name": "Chuck Norris Jokes",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:38.753Z",
+      "response_ms": 494,
+      "notes": ""
+    },
+    {
+      "id": "jokeapi",
+      "name": "JokeAPI",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:38.651Z",
+      "response_ms": 337,
+      "notes": ""
+    },
+    {
+      "id": "official-joke",
+      "name": "Official Joke API",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:39.313Z",
+      "response_ms": 418,
+      "notes": ""
+    },
+    {
+      "id": "open-meteo-geocoding",
+      "name": "Open-Meteo Geocoding",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:40.987Z",
+      "response_ms": 327,
+      "notes": ""
+    },
+    {
+      "id": "exchangerate-api",
+      "name": "ExchangeRate-API",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:39.327Z",
+      "response_ms": 227,
+      "notes": ""
+    },
+    {
+      "id": "mediawiki",
+      "name": "Wikipedia API",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:40.987Z",
+      "response_ms": 310,
+      "notes": ""
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata",
+      "up": true,
+      "https": true,
+      "cors": {
+        "allowed": true,
+        "method": "header"
+      },
+      "last_checked": "2026-06-05T17:02:41.182Z",
+      "response_ms": 1921,
       "notes": ""
     }
   ]
