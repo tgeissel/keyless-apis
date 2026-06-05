@@ -3,7 +3,7 @@
 A catalog of public APIs that require no API key and support CORS for browser use. Every entry is automatically tested weekly — uptime, HTTPS, and a real browser `fetch()` for CORS.
 
 <!-- BADGE:START -->
-![API Status](https://img.shields.io/badge/APIs-90%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
+![API Status](https://img.shields.io/badge/APIs-100%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
 <!-- BADGE:END -->
 
 Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
@@ -11,7 +11,7 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 ## API Status
 
 <!-- STATUS:START -->
-*Last generated: 2026-06-05T07:08:56.950Z — 27/30 APIs live, 25 CORS-verified*
+*Last generated: 2026-06-05T07:29:48.775Z — 25/25 APIs live, 25 CORS-verified*
 
 | Name | Category | CORS | Status | Last Checked |
 |------|----------|------|:------:|:------------:|
@@ -26,8 +26,6 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Open Trivia DB](https://opentdb.com/api_config.php) | Trivia | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [TheMealDB](https://www.themealdb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Numbers API](http://numbersapi.com/) | Fun | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
-| [Bored API](https://bored-api.appbrewery.com/) | Fun | ❌ No *(playwright)* | 🟢 | 2026-06-05 |
 | [Advice Slip](https://api.adviceslip.com/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Cat Facts](https://catfact.ninja/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Dog CEO](https://dog.ceo/dog-api/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
@@ -37,11 +35,8 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [USGS Earthquakes](https://earthquake.usgs.gov/fdsnws/event/1/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [ISS Position](http://open-notify.org/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Nager.Date](https://date.nager.at/) | Calendar | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Gutendex](https://gutendex.com/) | Books | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [Open Brewery DB](https://www.openbrewerydb.org/) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Fruityvice](https://www.fruityvice.com/) | Food | ❌ No *(playwright)* | 🟢 | 2026-06-05 |
 | [Sunrise Sunset](https://sunrise-sunset.org/api) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [HTTP Cat](https://http.cat/) | Fun | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [Free Dictionary](https://dictionaryapi.dev/) | Language | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Random User](https://randomuser.me/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |

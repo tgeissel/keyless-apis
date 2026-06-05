@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-05T07:08:56.950Z",
+  "generated": "2026-06-05T07:29:48.775Z",
   "summary": {
-    "total": 30,
-    "up": 27,
+    "total": 25,
+    "up": 25,
     "cors_ok": 25,
-    "cors_unknown": 3,
-    "cors_fail": 2
+    "cors_unknown": 0,
+    "cors_fail": 0
   },
   "results": [
     {
@@ -17,8 +17,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.219Z",
-      "response_ms": 320,
+      "last_checked": "2026-06-05T07:29:44.323Z",
+      "response_ms": 420,
       "notes": ""
     },
     {
@@ -30,8 +30,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.109Z",
-      "response_ms": 244,
+      "last_checked": "2026-06-05T07:29:44.089Z",
+      "response_ms": 306,
       "notes": ""
     },
     {
@@ -43,8 +43,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.176Z",
-      "response_ms": 401,
+      "last_checked": "2026-06-05T07:29:44.268Z",
+      "response_ms": 498,
       "notes": ""
     },
     {
@@ -56,8 +56,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.402Z",
-      "response_ms": 436,
+      "last_checked": "2026-06-05T07:29:44.497Z",
+      "response_ms": 509,
       "notes": ""
     },
     {
@@ -69,8 +69,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.068Z",
-      "response_ms": 317,
+      "last_checked": "2026-06-05T07:29:44.031Z",
+      "response_ms": 310,
       "notes": ""
     },
     {
@@ -82,8 +82,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.982Z",
-      "response_ms": 601,
+      "last_checked": "2026-06-05T07:29:44.571Z",
+      "response_ms": 138,
       "notes": ""
     },
     {
@@ -95,8 +95,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.904Z",
-      "response_ms": 632,
+      "last_checked": "2026-06-05T07:29:45.459Z",
+      "response_ms": 963,
       "notes": ""
     },
     {
@@ -108,8 +108,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.748Z",
-      "response_ms": 278,
+      "last_checked": "2026-06-05T07:29:44.690Z",
+      "response_ms": 135,
       "notes": ""
     },
     {
@@ -121,8 +121,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:45.301Z",
-      "response_ms": 723,
+      "last_checked": "2026-06-05T07:29:45.315Z",
+      "response_ms": 625,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:44.750Z",
-      "response_ms": 176,
+      "last_checked": "2026-06-05T07:29:44.795Z",
+      "response_ms": 129,
       "notes": ""
     },
     {
@@ -147,34 +147,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:45.142Z",
-      "response_ms": 269,
-      "notes": ""
-    },
-    {
-      "id": "numbers-api",
-      "name": "Numbers API",
-      "up": false,
-      "https": false,
-      "cors": {
-        "allowed": null,
-        "method": "unknown"
-      },
-      "last_checked": "2026-06-05T07:08:45.087Z",
-      "response_ms": 336,
-      "notes": "HTTP 404 (expected 200)"
-    },
-    {
-      "id": "bored-api",
-      "name": "Bored API",
-      "up": true,
-      "https": true,
-      "cors": {
-        "allowed": false,
-        "method": "playwright"
-      },
-      "last_checked": "2026-06-05T07:08:50.840Z",
-      "response_ms": 375,
+      "last_checked": "2026-06-05T07:29:44.919Z",
+      "response_ms": 222,
       "notes": ""
     },
     {
@@ -186,8 +160,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:49.747Z",
-      "response_ms": 2148,
+      "last_checked": "2026-06-05T07:29:48.775Z",
+      "response_ms": 1846,
       "notes": ""
     },
     {
@@ -199,8 +173,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:45.620Z",
-      "response_ms": 261,
+      "last_checked": "2026-06-05T07:29:45.225Z",
+      "response_ms": 224,
       "notes": ""
     },
     {
@@ -212,8 +186,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:45.683Z",
-      "response_ms": 407,
+      "last_checked": "2026-06-05T07:29:45.114Z",
+      "response_ms": 96,
       "notes": ""
     },
     {
@@ -225,8 +199,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:46.304Z",
-      "response_ms": 651,
+      "last_checked": "2026-06-05T07:29:46.079Z",
+      "response_ms": 557,
       "notes": ""
     },
     {
@@ -238,8 +212,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:46.594Z",
-      "response_ms": 615,
+      "last_checked": "2026-06-05T07:29:46.199Z",
+      "response_ms": 609,
       "notes": ""
     },
     {
@@ -251,8 +225,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:46.707Z",
-      "response_ms": 667,
+      "last_checked": "2026-06-05T07:29:46.208Z",
+      "response_ms": 529,
       "notes": ""
     },
     {
@@ -264,8 +238,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:47.114Z",
-      "response_ms": 294,
+      "last_checked": "2026-06-05T07:29:46.013Z",
+      "response_ms": 478,
       "notes": ""
     },
     {
@@ -277,8 +251,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:47.737Z",
-      "response_ms": 376,
+      "last_checked": "2026-06-05T07:29:47.078Z",
+      "response_ms": 429,
       "notes": ""
     },
     {
@@ -290,22 +264,9 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:46.943Z",
-      "response_ms": 131,
+      "last_checked": "2026-06-05T07:29:46.362Z",
+      "response_ms": 81,
       "notes": ""
-    },
-    {
-      "id": "gutendex",
-      "name": "Gutendex",
-      "up": false,
-      "https": true,
-      "cors": {
-        "allowed": null,
-        "method": "unknown"
-      },
-      "last_checked": "2026-06-05T07:08:56.950Z",
-      "response_ms": 10007,
-      "notes": "timeout"
     },
     {
       "id": "open-brewery-db",
@@ -316,21 +277,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:50.687Z",
-      "response_ms": 1630,
-      "notes": ""
-    },
-    {
-      "id": "fruityvice",
-      "name": "Fruityvice",
-      "up": true,
-      "https": true,
-      "cors": {
-        "allowed": false,
-        "method": "playwright"
-      },
-      "last_checked": "2026-06-05T07:08:50.945Z",
-      "response_ms": 2529,
+      "last_checked": "2026-06-05T07:29:46.613Z",
+      "response_ms": 164,
       "notes": ""
     },
     {
@@ -342,22 +290,9 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:50.599Z",
-      "response_ms": 655,
+      "last_checked": "2026-06-05T07:29:46.708Z",
+      "response_ms": 325,
       "notes": ""
-    },
-    {
-      "id": "http-cat",
-      "name": "HTTP Cat",
-      "up": false,
-      "https": true,
-      "cors": {
-        "allowed": null,
-        "method": "unknown"
-      },
-      "last_checked": "2026-06-05T07:08:50.757Z",
-      "response_ms": 157,
-      "notes": "HTTP 200 (expected 404)"
     },
     {
       "id": "free-dictionary",
@@ -368,8 +303,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:51.108Z",
-      "response_ms": 92,
+      "last_checked": "2026-06-05T07:29:46.786Z",
+      "response_ms": 77,
       "notes": ""
     },
     {
@@ -381,8 +316,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:51.261Z",
-      "response_ms": 118,
+      "last_checked": "2026-06-05T07:29:46.916Z",
+      "response_ms": 117,
       "notes": ""
     },
     {
@@ -394,8 +329,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T07:08:51.225Z",
-      "response_ms": 196,
+      "last_checked": "2026-06-05T07:29:47.082Z",
+      "response_ms": 212,
       "notes": ""
     }
   ]

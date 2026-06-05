@@ -103,7 +103,13 @@ fetch(${JSON.stringify(targetUrl)}, { mode: 'cors' })
 
 async function checkPlaywright(url: string): Promise<CorsResult> {
   const { server, port } = await startTestServer(url);
-  const browser = await chromium.launch({ headless: true });
+  let browser;
+  try {
+    browser = await chromium.launch({ headless: true, timeout: 30_000 });
+  } catch {
+    await new Promise<void>((resolve) => server.close(() => resolve()));
+    return { allowed: null, method: 'unknown' };
+  }
 
   try {
     const page = await browser.newPage();
@@ -120,7 +126,7 @@ async function checkPlaywright(url: string): Promise<CorsResult> {
   } catch {
     return { allowed: null, method: 'unknown' };
   } finally {
-    await browser.close();
+    await browser!.close();
     await new Promise<void>((resolve) => server.close(() => resolve()));
   }
 }

@@ -10,7 +10,10 @@
       "docs_url": "https://open-meteo.com/en/docs",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "open-meteo-air-quality",
@@ -21,7 +24,10 @@
       "docs_url": "https://open-meteo.com/en/docs/air-quality-api",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "nominatim-geocoding",
@@ -32,7 +38,10 @@
       "docs_url": "https://nominatim.org/release-docs/latest/api/Search/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "rest-countries",
@@ -43,7 +52,10 @@
       "docs_url": "https://restcountries.com/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "frankfurter-exchange",
@@ -54,7 +66,10 @@
       "docs_url": "https://www.frankfurter.app/docs",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "art-institute-chicago",
@@ -65,7 +80,10 @@
       "docs_url": "https://api.artic.edu/docs/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "poetrydb",
@@ -76,7 +94,10 @@
       "docs_url": "https://poetrydb.org/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "datamuse",
@@ -87,7 +108,10 @@
       "docs_url": "https://www.datamuse.com/api/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "open-trivia-db",
@@ -98,7 +122,10 @@
       "docs_url": "https://opentdb.com/api_config.php",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "themealdb",
@@ -109,7 +136,10 @@
       "docs_url": "https://www.themealdb.com/api.php",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "thecocktaildb",
@@ -120,29 +150,10 @@
       "docs_url": "https://www.thecocktaildb.com/api.php",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
-    },
-    {
-      "id": "numbers-api",
-      "name": "Numbers API",
-      "category": "Fun",
-      "description": "Fakten über Zahlen — nur HTTP, kein HTTPS",
-      "test_url": "http://numbersapi.com/42",
-      "docs_url": "http://numbersapi.com/",
-      "https": false,
-      "auth": "none",
-      "expects": { "status": 200, "content_type": "text/plain" }
-    },
-    {
-      "id": "bored-api",
-      "name": "Bored API",
-      "category": "Fun",
-      "description": "Zufällige Aktivitätsvorschläge gegen Langeweile",
-      "test_url": "https://bored-api.appbrewery.com/random",
-      "docs_url": "https://bored-api.appbrewery.com/",
-      "https": true,
-      "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "advice-slip",
@@ -153,7 +164,10 @@
       "docs_url": "https://api.adviceslip.com/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "cat-facts",
@@ -164,7 +178,10 @@
       "docs_url": "https://catfact.ninja/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "dog-ceo",
@@ -175,7 +192,10 @@
       "docs_url": "https://dog.ceo/dog-api/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "genderize",
@@ -186,7 +206,10 @@
       "docs_url": "https://genderize.io/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "agify",
@@ -197,7 +220,10 @@
       "docs_url": "https://agify.io/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "nationalize",
@@ -208,7 +234,10 @@
       "docs_url": "https://nationalize.io/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "usgs-earthquakes",
@@ -219,7 +248,10 @@
       "docs_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "iss-position",
@@ -230,7 +262,10 @@
       "docs_url": "http://open-notify.org/",
       "https": false,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "nager-date",
@@ -241,18 +276,10 @@
       "docs_url": "https://date.nager.at/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
-    },
-    {
-      "id": "gutendex",
-      "name": "Gutendex",
-      "category": "Books",
-      "description": "Gemeinfreie Bücher von Project Gutenberg",
-      "test_url": "https://gutendex.com/books?search=verne",
-      "docs_url": "https://gutendex.com/",
-      "https": true,
-      "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "open-brewery-db",
@@ -263,18 +290,10 @@
       "docs_url": "https://www.openbrewerydb.org/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
-    },
-    {
-      "id": "fruityvice",
-      "name": "Fruityvice",
-      "category": "Food",
-      "description": "Nährwerte von Früchten",
-      "test_url": "https://www.fruityvice.com/api/fruit/banana",
-      "docs_url": "https://www.fruityvice.com/",
-      "https": true,
-      "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "sunrise-sunset",
@@ -285,18 +304,10 @@
       "docs_url": "https://sunrise-sunset.org/api",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
-    },
-    {
-      "id": "http-cat",
-      "name": "HTTP Cat",
-      "category": "Fun",
-      "description": "HTTP-Statuscodes als Katzenbilder",
-      "test_url": "https://http.cat/404",
-      "docs_url": "https://http.cat/",
-      "https": true,
-      "auth": "none",
-      "expects": { "status": 404, "content_type": "image/jpeg" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "free-dictionary",
@@ -307,7 +318,10 @@
       "docs_url": "https://dictionaryapi.dev/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "jsonplaceholder",
@@ -318,7 +332,10 @@
       "docs_url": "https://jsonplaceholder.typicode.com/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     },
     {
       "id": "random-user",
@@ -329,7 +346,10 @@
       "docs_url": "https://randomuser.me/",
       "https": true,
       "auth": "none",
-      "expects": { "status": 200, "content_type": "application/json" }
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     }
   ]
 }
