@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-05T11:32:11.993Z",
+  "generated": "2026-06-05T11:34:24.008Z",
   "summary": {
     "total": 32,
-    "up": 32,
-    "cors_ok": 32,
-    "cors_unknown": 0,
+    "up": 30,
+    "cors_ok": 30,
+    "cors_unknown": 2,
     "cors_fail": 0
   },
   "results": [
@@ -17,8 +17,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:00.820Z",
-      "response_ms": 1993,
+      "last_checked": "2026-06-05T11:34:18.664Z",
+      "response_ms": 445,
       "notes": ""
     },
     {
@@ -30,8 +30,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:00.817Z",
-      "response_ms": 1978,
+      "last_checked": "2026-06-05T11:34:18.720Z",
+      "response_ms": 477,
       "notes": ""
     },
     {
@@ -43,8 +43,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:00.728Z",
-      "response_ms": 1958,
+      "last_checked": "2026-06-05T11:34:18.535Z",
+      "response_ms": 535,
       "notes": ""
     },
     {
@@ -56,8 +56,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:01.148Z",
-      "response_ms": 2139,
+      "last_checked": "2026-06-05T11:34:18.128Z",
+      "response_ms": 119,
       "notes": ""
     },
     {
@@ -69,22 +69,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:00.812Z",
-      "response_ms": 2055,
+      "last_checked": "2026-06-05T11:34:18.384Z",
+      "response_ms": 264,
       "notes": ""
     },
     {
       "id": "art-institute-chicago",
       "name": "Art Institute Chicago",
-      "up": true,
+      "up": false,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-06-05T11:32:01.482Z",
-      "response_ms": 245,
-      "notes": ""
+      "last_checked": "2026-06-05T11:34:18.288Z",
+      "response_ms": 160,
+      "notes": "HTTP 403 (expected 200)"
     },
     {
       "id": "poetrydb",
@@ -95,22 +95,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:01.717Z",
-      "response_ms": 673,
+      "last_checked": "2026-06-05T11:34:18.506Z",
+      "response_ms": 163,
       "notes": ""
     },
     {
       "id": "datamuse",
       "name": "Datamuse",
-      "up": true,
+      "up": false,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-06-05T11:32:01.495Z",
-      "response_ms": 253,
-      "notes": ""
+      "last_checked": "2026-06-05T11:34:18.487Z",
+      "response_ms": 103,
+      "notes": "HTTP 403 (expected 200)"
     },
     {
       "id": "open-trivia-db",
@@ -121,8 +121,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:01.802Z",
-      "response_ms": 567,
+      "last_checked": "2026-06-05T11:34:18.855Z",
+      "response_ms": 156,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:01.635Z",
-      "response_ms": 237,
+      "last_checked": "2026-06-05T11:34:18.942Z",
+      "response_ms": 241,
       "notes": ""
     },
     {
@@ -147,8 +147,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:01.890Z",
-      "response_ms": 156,
+      "last_checked": "2026-06-05T11:34:19.018Z",
+      "response_ms": 219,
       "notes": ""
     },
     {
@@ -160,8 +160,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:04.022Z",
-      "response_ms": 402,
+      "last_checked": "2026-06-05T11:34:19.754Z",
+      "response_ms": 560,
       "notes": ""
     },
     {
@@ -173,8 +173,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:03.942Z",
-      "response_ms": 326,
+      "last_checked": "2026-06-05T11:34:18.914Z",
+      "response_ms": 153,
       "notes": ""
     },
     {
@@ -186,8 +186,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:03.853Z",
-      "response_ms": 245,
+      "last_checked": "2026-06-05T11:34:19.304Z",
+      "response_ms": 282,
       "notes": ""
     },
     {
@@ -199,8 +199,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:04.429Z",
-      "response_ms": 2217,
+      "last_checked": "2026-06-05T11:34:19.254Z",
+      "response_ms": 147,
       "notes": ""
     },
     {
@@ -212,8 +212,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:04.431Z",
-      "response_ms": 2126,
+      "last_checked": "2026-06-05T11:34:19.373Z",
+      "response_ms": 292,
       "notes": ""
     },
     {
@@ -225,8 +225,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:04.925Z",
-      "response_ms": 580,
+      "last_checked": "2026-06-05T11:34:19.329Z",
+      "response_ms": 168,
       "notes": ""
     },
     {
@@ -238,8 +238,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:04.758Z",
-      "response_ms": 568,
+      "last_checked": "2026-06-05T11:34:20.078Z",
+      "response_ms": 503,
       "notes": ""
     },
     {
@@ -251,8 +251,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:11.993Z",
-      "response_ms": 3203,
+      "last_checked": "2026-06-05T11:34:24.008Z",
+      "response_ms": 4457,
       "notes": ""
     },
     {
@@ -264,8 +264,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:05.004Z",
-      "response_ms": 253,
+      "last_checked": "2026-06-05T11:34:19.715Z",
+      "response_ms": 255,
       "notes": ""
     },
     {
@@ -277,8 +277,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:05.334Z",
-      "response_ms": 248,
+      "last_checked": "2026-06-05T11:34:20.119Z",
+      "response_ms": 478,
       "notes": ""
     },
     {
@@ -290,8 +290,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:05.337Z",
-      "response_ms": 248,
+      "last_checked": "2026-06-05T11:34:20.037Z",
+      "response_ms": 278,
       "notes": ""
     },
     {
@@ -303,8 +303,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:07.227Z",
-      "response_ms": 246,
+      "last_checked": "2026-06-05T11:34:19.879Z",
+      "response_ms": 78,
       "notes": ""
     },
     {
@@ -316,8 +316,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:07.387Z",
-      "response_ms": 248,
+      "last_checked": "2026-06-05T11:34:20.033Z",
+      "response_ms": 121,
       "notes": ""
     },
     {
@@ -329,8 +329,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:07.800Z",
-      "response_ms": 2138,
+      "last_checked": "2026-06-05T11:34:20.151Z",
+      "response_ms": 79,
       "notes": ""
     },
     {
@@ -342,8 +342,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:08.621Z",
-      "response_ms": 2547,
+      "last_checked": "2026-06-05T11:34:21.201Z",
+      "response_ms": 617,
       "notes": ""
     },
     {
@@ -355,8 +355,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:07.803Z",
-      "response_ms": 250,
+      "last_checked": "2026-06-05T11:34:20.140Z",
+      "response_ms": 38,
       "notes": ""
     },
     {
@@ -368,8 +368,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:07.881Z",
-      "response_ms": 247,
+      "last_checked": "2026-06-05T11:34:20.936Z",
+      "response_ms": 406,
       "notes": ""
     },
     {
@@ -381,8 +381,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:08.375Z",
-      "response_ms": 360,
+      "last_checked": "2026-06-05T11:34:21.295Z",
+      "response_ms": 771,
       "notes": ""
     },
     {
@@ -394,8 +394,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:10.389Z",
-      "response_ms": 506,
+      "last_checked": "2026-06-05T11:34:21.227Z",
+      "response_ms": 712,
       "notes": ""
     },
     {
@@ -407,8 +407,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:08.454Z",
-      "response_ms": 277,
+      "last_checked": "2026-06-05T11:34:21.102Z",
+      "response_ms": 103,
       "notes": ""
     },
     {
@@ -420,8 +420,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-05T11:32:10.389Z",
-      "response_ms": 247,
+      "last_checked": "2026-06-05T11:34:21.165Z",
+      "response_ms": 32,
       "notes": ""
     }
   ]

@@ -3,7 +3,7 @@
 A catalog of public APIs that require no API key and support CORS for browser use. Every entry is automatically tested weekly — uptime, HTTPS, and a real browser `fetch()` for CORS.
 
 <!-- BADGE:START -->
-![API Status](https://img.shields.io/badge/APIs-100%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
+![API Status](https://img.shields.io/badge/APIs-94%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
 <!-- BADGE:END -->
 
 Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
@@ -11,7 +11,7 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 ## API Status
 
 <!-- STATUS:START -->
-*Last generated: 2026-06-05T11:32:11.993Z — 32/32 APIs live, 32 CORS-verified*
+*Last generated: 2026-06-05T11:34:24.008Z — 30/32 APIs live, 30 CORS-verified*
 
 | Name | Category | CORS | Status | Last Checked |
 |------|----------|------|:------:|:------------:|
@@ -20,9 +20,9 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Nominatim OSM](https://nominatim.org/release-docs/latest/api/Search/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [REST Countries](https://restcountries.com/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Frankfurter](https://www.frankfurter.app/docs) | Finance | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Art Institute Chicago](https://api.artic.edu/docs/) | Art | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Art Institute Chicago](https://api.artic.edu/docs/) | Art | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [PoetryDB](https://poetrydb.org/) | Literature | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Datamuse](https://www.datamuse.com/api/) | Language | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Datamuse](https://www.datamuse.com/api/) | Language | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [Open Trivia DB](https://opentdb.com/api_config.php) | Trivia | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [TheMealDB](https://www.themealdb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [TheCocktailDB](https://www.thecocktaildb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
