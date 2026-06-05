@@ -882,6 +882,216 @@
         "status": 200,
         "content_type": "application/json"
       }
+    },
+    {
+      "id": "open-meteo-climate",
+      "name": "Open-Meteo Climate",
+      "category": "Weather",
+      "description": "Klimaprojektionen bis 2050",
+      "test_url": "https://climate-api.open-meteo.com/v1/climate?latitude=52.5&longitude=13.4&start_date=2024-01-01&end_date=2024-01-02&models=CMCC_CM2_VHR4&daily=temperature_2m_max",
+      "docs_url": "https://open-meteo.com/en/docs/climate-api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "boredapi-v2",
+      "name": "Bored API v2",
+      "category": "Fun",
+      "description": "Aktivitätsvorschläge gegen Langeweile (v2)",
+      "test_url": "https://bored.api.lewagon.com/api/activity",
+      "docs_url": "https://bored.api.lewagon.com/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "cocktaildb-search",
+      "name": "CocktailDB Search",
+      "category": "Food",
+      "description": "Cocktails nach Zutat suchen",
+      "test_url": "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin",
+      "docs_url": "https://www.thecocktaildb.com/api.php",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "open-meteo-ensemble",
+      "name": "Open-Meteo Ensemble",
+      "category": "Weather",
+      "description": "Ensemble-Wettermodelle für Unsicherheitsschätzung",
+      "test_url": "https://ensemble-api.open-meteo.com/v1/ensemble?latitude=52.5&longitude=13.4&hourly=temperature_2m&models=icon_seamless",
+      "docs_url": "https://open-meteo.com/en/docs/ensemble-api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "pokeapi",
+      "name": "PokéAPI",
+      "category": "Games",
+      "description": "Pokémon-Daten: Stats, Moves, Arten",
+      "test_url": "https://pokeapi.co/api/v2/pokemon/pikachu",
+      "docs_url": "https://pokeapi.co/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "tcgdex",
+      "name": "TCGdex",
+      "category": "Games",
+      "description": "Pokémon-Sammelkartendaten",
+      "test_url": "https://api.tcgdex.net/v2/en/cards/base1-1",
+      "docs_url": "https://tcgdex.dev/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "openlibrary-search",
+      "name": "Open Library Search",
+      "category": "Books",
+      "description": "Buchsuche in Open Library",
+      "test_url": "https://openlibrary.org/search.json?q=hitchhiker+guide&limit=1",
+      "docs_url": "https://openlibrary.org/developers/api",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "overpass-api",
+      "name": "Nominatim Reverse",
+      "category": "Geo",
+      "description": "Reverse Geocoding via Nominatim",
+      "test_url": "https://nominatim.openstreetmap.org/reverse?lat=52.5&lon=13.4&format=json",
+      "docs_url": "https://nominatim.org/release-docs/latest/api/Reverse/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "splatoon3",
+      "name": "Splatoon3.ink",
+      "category": "Games",
+      "description": "Aktuelle Splatoon 3 Stages und Rotationen",
+      "test_url": "https://splatoon3.ink/data/schedules.json",
+      "docs_url": "https://splatoon3.ink/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "cocktaildb-categories",
+      "name": "CocktailDB Categories",
+      "category": "Food",
+      "description": "Alle Cocktail-Kategorien",
+      "test_url": "https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list",
+      "docs_url": "https://www.thecocktaildb.com/api.php",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "bible-api",
+      "name": "Bible API",
+      "category": "Literature",
+      "description": "Bibelverse auf Englisch",
+      "test_url": "https://bible-api.com/john+3:16",
+      "docs_url": "https://bible-api.com/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "quran-api",
+      "name": "Quran API",
+      "category": "Literature",
+      "description": "Koran-Verse und Suren",
+      "test_url": "https://api.quran.com/api/v4/chapters",
+      "docs_url": "https://quran.api-docs.io/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "iseven",
+      "name": "isEven API",
+      "category": "Dev",
+      "description": "Prüft ob eine Zahl gerade ist",
+      "test_url": "https://api.isevenapi.xyz/api/iseven/6",
+      "docs_url": "https://isevenapi.xyz/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "cataas",
+      "name": "CATAAS",
+      "category": "Animals",
+      "description": "Cat as a Service — Katzenbilder per API",
+      "test_url": "https://cataas.com/cat?json=true",
+      "docs_url": "https://cataas.com/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
+    },
+    {
+      "id": "foxapi",
+      "name": "RandomFox",
+      "category": "Animals",
+      "description": "Zufällige Fuchsbilder",
+      "test_url": "https://randomfox.ca/floof/",
+      "docs_url": "https://randomfox.ca/",
+      "https": true,
+      "auth": "none",
+      "expects": {
+        "status": 200,
+        "content_type": "application/json"
+      }
     }
   ]
 }

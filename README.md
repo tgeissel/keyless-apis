@@ -3,7 +3,7 @@
 A catalog of public APIs that require no API key and support CORS for browser use. Every entry is automatically tested weekly — uptime, HTTPS, and a real browser `fetch()` for CORS.
 
 <!-- BADGE:START -->
-![API Status](https://img.shields.io/badge/APIs-100%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
+![API Status](https://img.shields.io/badge/APIs-96%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--06--05-blue)
 <!-- BADGE:END -->
 
 Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
@@ -11,7 +11,7 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 ## API Status
 
 <!-- STATUS:START -->
-*Last generated: 2026-06-05T17:06:02.793Z — 63/63 APIs live, 63 CORS-verified*
+*Last generated: 2026-06-05T17:10:55.504Z — 75/78 APIs live, 75 CORS-verified*
 
 | Name | Category | CORS | Status | Last Checked |
 |------|----------|------|:------:|:------------:|
@@ -29,9 +29,9 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Advice Slip](https://api.adviceslip.com/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Cat Facts](https://catfact.ninja/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Dog CEO](https://dog.ceo/dog-api/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Genderize](https://genderize.io/) | Social | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Genderize](https://genderize.io/) | Social | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [Agify](https://agify.io/) | Social | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Nationalize](https://nationalize.io/) | Social | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Nationalize](https://nationalize.io/) | Social | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [USGS Earthquakes](https://earthquake.usgs.gov/fdsnws/event/1/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [ISS Position](http://open-notify.org/) | Science | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Nager.Date](https://date.nager.at/) | Calendar | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
@@ -40,7 +40,7 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Free Dictionary](https://dictionaryapi.dev/) | Language | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Random User](https://randomuser.me/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
-| [Open Library](https://openlibrary.org/developers/api) | Books | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open Library](https://openlibrary.org/developers/api) | Books | ❓ Unknown *(unknown)* | 🔴 | 2026-06-05 |
 | [GitHub Zen](https://docs.github.com/en/rest) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [wttr.in](https://wttr.in/:help) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
@@ -78,6 +78,21 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 | [Dog Facts](https://dogapi.dog/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [Open-Meteo Historical](https://open-meteo.com/en/docs/historical-weather-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 | [The Color API](https://www.thecolorapi.com/) | Design | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Climate](https://open-meteo.com/en/docs/climate-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Bored API v2](https://bored.api.lewagon.com/) | Fun | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [CocktailDB Search](https://www.thecocktaildb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open-Meteo Ensemble](https://open-meteo.com/en/docs/ensemble-api) | Weather | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [PokéAPI](https://pokeapi.co/) | Games | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [TCGdex](https://tcgdex.dev/) | Games | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Open Library Search](https://openlibrary.org/developers/api) | Books | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Nominatim Reverse](https://nominatim.org/release-docs/latest/api/Reverse/) | Geo | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Splatoon3.ink](https://splatoon3.ink/) | Games | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [CocktailDB Categories](https://www.thecocktaildb.com/api.php) | Food | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Bible API](https://bible-api.com/) | Literature | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [Quran API](https://quran.api-docs.io/) | Literature | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [isEven API](https://isevenapi.xyz/) | Dev | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [CATAAS](https://cataas.com/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
+| [RandomFox](https://randomfox.ca/) | Animals | ✅ Yes *(header)* | 🟢 | 2026-06-05 |
 <!-- STATUS:END -->
 
 ## Usage
