@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-15T11:54:45.091Z",
+  "generated": "2026-06-22T11:44:05.353Z",
   "summary": {
     "total": 78,
-    "up": 76,
-    "cors_ok": 74,
-    "cors_unknown": 2,
-    "cors_fail": 2
+    "up": 74,
+    "cors_ok": 73,
+    "cors_unknown": 4,
+    "cors_fail": 1
   },
   "results": [
     {
@@ -17,8 +17,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.335Z",
-      "response_ms": 482,
+      "last_checked": "2026-06-22T11:43:41.075Z",
+      "response_ms": 776,
       "notes": ""
     },
     {
@@ -30,8 +30,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.295Z",
-      "response_ms": 472,
+      "last_checked": "2026-06-22T11:43:40.907Z",
+      "response_ms": 663,
       "notes": ""
     },
     {
@@ -43,8 +43,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:00.893Z",
-      "response_ms": 380,
+      "last_checked": "2026-06-22T11:43:40.755Z",
+      "response_ms": 671,
       "notes": ""
     },
     {
@@ -53,11 +53,11 @@
       "up": true,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": false,
+        "method": "playwright"
       },
-      "last_checked": "2026-06-15T11:54:00.599Z",
-      "response_ms": 129,
+      "last_checked": "2026-06-22T11:43:41.334Z",
+      "response_ms": 213,
       "notes": ""
     },
     {
@@ -66,11 +66,11 @@
       "up": true,
       "https": true,
       "cors": {
-        "allowed": false,
-        "method": "playwright"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:04.192Z",
-      "response_ms": 207,
+      "last_checked": "2026-06-22T11:43:40.231Z",
+      "response_ms": 208,
       "notes": ""
     },
     {
@@ -82,8 +82,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.212Z",
-      "response_ms": 537,
+      "last_checked": "2026-06-22T11:43:40.727Z",
+      "response_ms": 307,
       "notes": ""
     },
     {
@@ -95,8 +95,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.259Z",
-      "response_ms": 232,
+      "last_checked": "2026-06-22T11:43:41.736Z",
+      "response_ms": 680,
       "notes": ""
     },
     {
@@ -108,8 +108,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.500Z",
-      "response_ms": 139,
+      "last_checked": "2026-06-22T11:43:41.010Z",
+      "response_ms": 107,
       "notes": ""
     },
     {
@@ -121,8 +121,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.602Z",
-      "response_ms": 222,
+      "last_checked": "2026-06-22T11:43:41.492Z",
+      "response_ms": 297,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.688Z",
-      "response_ms": 188,
+      "last_checked": "2026-06-22T11:43:41.649Z",
+      "response_ms": 343,
       "notes": ""
     },
     {
@@ -147,8 +147,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.706Z",
-      "response_ms": 252,
+      "last_checked": "2026-06-22T11:43:41.697Z",
+      "response_ms": 330,
       "notes": ""
     },
     {
@@ -160,8 +160,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:02.668Z",
-      "response_ms": 494,
+      "last_checked": "2026-06-22T11:43:52.572Z",
+      "response_ms": 4732,
       "notes": ""
     },
     {
@@ -173,8 +173,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:01.922Z",
-      "response_ms": 226,
+      "last_checked": "2026-06-22T11:43:41.716Z",
+      "response_ms": 129,
       "notes": ""
     },
     {
@@ -186,8 +186,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:02.215Z",
-      "response_ms": 401,
+      "last_checked": "2026-06-22T11:43:42.413Z",
+      "response_ms": 592,
       "notes": ""
     },
     {
@@ -199,8 +199,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:02.120Z",
-      "response_ms": 290,
+      "last_checked": "2026-06-22T11:43:42.576Z",
+      "response_ms": 490,
       "notes": ""
     },
     {
@@ -212,8 +212,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:02.350Z",
-      "response_ms": 231,
+      "last_checked": "2026-06-22T11:43:42.865Z",
+      "response_ms": 767,
       "notes": ""
     },
     {
@@ -225,8 +225,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:02.558Z",
-      "response_ms": 242,
+      "last_checked": "2026-06-22T11:43:42.661Z",
+      "response_ms": 689,
       "notes": ""
     },
     {
@@ -238,8 +238,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.134Z",
-      "response_ms": 620,
+      "last_checked": "2026-06-22T11:43:42.853Z",
+      "response_ms": 97,
       "notes": ""
     },
     {
@@ -251,8 +251,8 @@
         "allowed": true,
         "method": "playwright"
       },
-      "last_checked": "2026-06-15T11:54:23.140Z",
-      "response_ms": 305,
+      "last_checked": "2026-06-22T11:43:42.769Z",
+      "response_ms": 19,
       "notes": ""
     },
     {
@@ -264,8 +264,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.222Z",
-      "response_ms": 139,
+      "last_checked": "2026-06-22T11:43:43.025Z",
+      "response_ms": 187,
       "notes": ""
     },
     {
@@ -277,8 +277,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.365Z",
-      "response_ms": 507,
+      "last_checked": "2026-06-22T11:43:43.014Z",
+      "response_ms": 206,
       "notes": ""
     },
     {
@@ -290,8 +290,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.383Z",
-      "response_ms": 214,
+      "last_checked": "2026-06-22T11:43:43.041Z",
+      "response_ms": 108,
       "notes": ""
     },
     {
@@ -303,8 +303,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.381Z",
-      "response_ms": 63,
+      "last_checked": "2026-06-22T11:43:43.186Z",
+      "response_ms": 107,
       "notes": ""
     },
     {
@@ -316,8 +316,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.435Z",
-      "response_ms": 22,
+      "last_checked": "2026-06-22T11:43:43.111Z",
+      "response_ms": 23,
       "notes": ""
     },
     {
@@ -329,8 +329,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.493Z",
-      "response_ms": 70,
+      "last_checked": "2026-06-22T11:43:43.228Z",
+      "response_ms": 111,
       "notes": ""
     },
     {
@@ -342,8 +342,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:04.768Z",
-      "response_ms": 684,
+      "last_checked": "2026-06-22T11:43:48.390Z",
+      "response_ms": 3262,
       "notes": ""
     },
     {
@@ -355,8 +355,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:03.543Z",
-      "response_ms": 55,
+      "last_checked": "2026-06-22T11:43:43.484Z",
+      "response_ms": 187,
       "notes": ""
     },
     {
@@ -368,8 +368,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:04.416Z",
-      "response_ms": 474,
+      "last_checked": "2026-06-22T11:43:44.449Z",
+      "response_ms": 635,
       "notes": ""
     },
     {
@@ -381,8 +381,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.048Z",
-      "response_ms": 737,
+      "last_checked": "2026-06-22T11:43:44.664Z",
+      "response_ms": 975,
       "notes": ""
     },
     {
@@ -394,8 +394,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.465Z",
-      "response_ms": 869,
+      "last_checked": "2026-06-22T11:43:44.963Z",
+      "response_ms": 941,
       "notes": ""
     },
     {
@@ -407,8 +407,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:04.601Z",
-      "response_ms": 137,
+      "last_checked": "2026-06-22T11:43:44.599Z",
+      "response_ms": 86,
       "notes": ""
     },
     {
@@ -420,8 +420,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:04.785Z",
-      "response_ms": 141,
+      "last_checked": "2026-06-22T11:43:44.699Z",
+      "response_ms": 62,
       "notes": ""
     },
     {
@@ -433,8 +433,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.674Z",
-      "response_ms": 458,
+      "last_checked": "2026-06-22T11:43:45.953Z",
+      "response_ms": 652,
       "notes": ""
     },
     {
@@ -446,8 +446,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.088Z",
-      "response_ms": 253,
+      "last_checked": "2026-06-22T11:43:44.908Z",
+      "response_ms": 122,
       "notes": ""
     },
     {
@@ -459,8 +459,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.191Z",
-      "response_ms": 87,
+      "last_checked": "2026-06-22T11:43:45.223Z",
+      "response_ms": 164,
       "notes": ""
     },
     {
@@ -472,8 +472,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.039Z",
-      "response_ms": 492,
+      "last_checked": "2026-06-22T11:43:46.269Z",
+      "response_ms": 664,
       "notes": ""
     },
     {
@@ -485,8 +485,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.710Z",
-      "response_ms": 267,
+      "last_checked": "2026-06-22T11:43:45.781Z",
+      "response_ms": 210,
       "notes": ""
     },
     {
@@ -498,8 +498,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.969Z",
-      "response_ms": 274,
+      "last_checked": "2026-06-22T11:43:45.880Z",
+      "response_ms": 63,
       "notes": ""
     },
     {
@@ -511,8 +511,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.676Z",
-      "response_ms": 451,
+      "last_checked": "2026-06-22T11:43:47.305Z",
+      "response_ms": 642,
       "notes": ""
     },
     {
@@ -524,8 +524,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:05.956Z",
-      "response_ms": 58,
+      "last_checked": "2026-06-22T11:43:46.032Z",
+      "response_ms": 42,
       "notes": ""
     },
     {
@@ -537,8 +537,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.201Z",
-      "response_ms": 146,
+      "last_checked": "2026-06-22T11:43:46.309Z",
+      "response_ms": 190,
       "notes": ""
     },
     {
@@ -550,8 +550,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.557Z",
-      "response_ms": 488,
+      "last_checked": "2026-06-22T11:43:46.603Z",
+      "response_ms": 248,
       "notes": ""
     },
     {
@@ -563,8 +563,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.926Z",
-      "response_ms": 447,
+      "last_checked": "2026-06-22T11:43:47.586Z",
+      "response_ms": 655,
       "notes": ""
     },
     {
@@ -576,8 +576,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.330Z",
-      "response_ms": 53,
+      "last_checked": "2026-06-22T11:43:46.778Z",
+      "response_ms": 87,
       "notes": ""
     },
     {
@@ -586,11 +586,11 @@
       "up": true,
       "https": true,
       "cors": {
-        "allowed": false,
-        "method": "playwright"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.620Z",
-      "response_ms": 96,
+      "last_checked": "2026-06-22T11:43:47.074Z",
+      "response_ms": 135,
       "notes": ""
     },
     {
@@ -602,22 +602,22 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-06-15T11:54:06.705Z",
-      "response_ms": 148,
-      "notes": "HTTP 525 (expected 200)"
+      "last_checked": "2026-06-22T11:43:47.394Z",
+      "response_ms": 320,
+      "notes": "HTTP 521 (expected 200)"
     },
     {
       "id": "open-notify-astros",
       "name": "Open Notify Astronauts",
-      "up": true,
+      "up": false,
       "https": false,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-06-15T11:54:07.031Z",
-      "response_ms": 53,
-      "notes": ""
+      "last_checked": "2026-06-22T11:43:57.305Z",
+      "response_ms": 10000,
+      "notes": "timeout"
     },
     {
       "id": "httpbin",
@@ -628,8 +628,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-06-15T11:54:06.793Z",
-      "response_ms": 117,
+      "last_checked": "2026-06-22T11:43:47.667Z",
+      "response_ms": 273,
       "notes": "HTTP 503 (expected 200)"
     },
     {
@@ -641,8 +641,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:06.971Z",
-      "response_ms": 99,
+      "last_checked": "2026-06-22T11:43:47.887Z",
+      "response_ms": 125,
       "notes": ""
     },
     {
@@ -654,8 +654,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:07.871Z",
-      "response_ms": 733,
+      "last_checked": "2026-06-22T11:43:48.884Z",
+      "response_ms": 767,
       "notes": ""
     },
     {
@@ -667,8 +667,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:07.923Z",
-      "response_ms": 648,
+      "last_checked": "2026-06-22T11:43:48.892Z",
+      "response_ms": 518,
       "notes": ""
     },
     {
@@ -680,8 +680,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:07.253Z",
-      "response_ms": 239,
+      "last_checked": "2026-06-22T11:43:48.821Z",
+      "response_ms": 351,
       "notes": ""
     },
     {
@@ -693,22 +693,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:07.197Z",
-      "response_ms": 127,
+      "last_checked": "2026-06-22T11:43:48.929Z",
+      "response_ms": 33,
       "notes": ""
     },
     {
       "id": "picsum",
       "name": "Lorem Picsum",
-      "up": true,
+      "up": false,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-06-15T11:54:07.505Z",
-      "response_ms": 156,
-      "notes": ""
+      "last_checked": "2026-06-22T11:43:58.885Z",
+      "response_ms": 10001,
+      "notes": "timeout"
     },
     {
       "id": "robohash",
@@ -719,8 +719,8 @@
         "allowed": true,
         "method": "playwright"
       },
-      "last_checked": "2026-06-15T11:54:45.091Z",
-      "response_ms": 3347,
+      "last_checked": "2026-06-22T11:44:00.010Z",
+      "response_ms": 437,
       "notes": ""
     },
     {
@@ -732,8 +732,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:07.764Z",
-      "response_ms": 136,
+      "last_checked": "2026-06-22T11:43:49.406Z",
+      "response_ms": 238,
       "notes": ""
     },
     {
@@ -745,8 +745,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:08.425Z",
-      "response_ms": 167,
+      "last_checked": "2026-06-22T11:43:50.820Z",
+      "response_ms": 708,
       "notes": ""
     },
     {
@@ -758,8 +758,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:08.085Z",
-      "response_ms": 132,
+      "last_checked": "2026-06-22T11:43:51.359Z",
+      "response_ms": 319,
       "notes": ""
     },
     {
@@ -771,8 +771,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:07.994Z",
-      "response_ms": 50,
+      "last_checked": "2026-06-22T11:43:51.447Z",
+      "response_ms": 58,
       "notes": ""
     },
     {
@@ -784,8 +784,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:08.913Z",
-      "response_ms": 563,
+      "last_checked": "2026-06-22T11:43:52.611Z",
+      "response_ms": 704,
       "notes": ""
     },
     {
@@ -797,8 +797,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:09.445Z",
-      "response_ms": 484,
+      "last_checked": "2026-06-22T11:43:54.349Z",
+      "response_ms": 1042,
       "notes": ""
     },
     {
@@ -810,8 +810,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:10.310Z",
-      "response_ms": 1429,
+      "last_checked": "2026-06-22T11:43:53.878Z",
+      "response_ms": 663,
       "notes": ""
     },
     {
@@ -823,8 +823,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:09.178Z",
-      "response_ms": 177,
+      "last_checked": "2026-06-22T11:43:54.299Z",
+      "response_ms": 214,
       "notes": ""
     },
     {
@@ -836,8 +836,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:10.344Z",
-      "response_ms": 705,
+      "last_checked": "2026-06-22T11:43:55.565Z",
+      "response_ms": 646,
       "notes": ""
     },
     {
@@ -849,8 +849,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:14.880Z",
-      "response_ms": 5114,
+      "last_checked": "2026-06-22T11:43:57.521Z",
+      "response_ms": 2474,
       "notes": ""
     },
     {
@@ -862,8 +862,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:10.545Z",
-      "response_ms": 122,
+      "last_checked": "2026-06-22T11:43:55.873Z",
+      "response_ms": 157,
       "notes": ""
     },
     {
@@ -875,8 +875,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:11.285Z",
-      "response_ms": 487,
+      "last_checked": "2026-06-22T11:43:57.115Z",
+      "response_ms": 635,
       "notes": ""
     },
     {
@@ -888,8 +888,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:10.654Z",
-      "response_ms": 49,
+      "last_checked": "2026-06-22T11:43:57.281Z",
+      "response_ms": 42,
       "notes": ""
     },
     {
@@ -901,8 +901,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:10.980Z",
-      "response_ms": 250,
+      "last_checked": "2026-06-22T11:43:57.796Z",
+      "response_ms": 286,
       "notes": ""
     },
     {
@@ -914,8 +914,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:12.050Z",
-      "response_ms": 595,
+      "last_checked": "2026-06-22T11:44:05.352Z",
+      "response_ms": 3962,
       "notes": ""
     },
     {
@@ -927,8 +927,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:11.734Z",
-      "response_ms": 233,
+      "last_checked": "2026-06-22T11:43:58.726Z",
+      "response_ms": 748,
       "notes": ""
     },
     {
@@ -940,8 +940,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:11.924Z",
-      "response_ms": 102,
+      "last_checked": "2026-06-22T11:43:58.102Z",
+      "response_ms": 126,
       "notes": ""
     },
     {
@@ -953,8 +953,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:12.127Z",
-      "response_ms": 106,
+      "last_checked": "2026-06-22T11:43:58.394Z",
+      "response_ms": 150,
       "notes": ""
     },
     {
@@ -966,8 +966,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:12.470Z",
-      "response_ms": 188,
+      "last_checked": "2026-06-22T11:43:59.029Z",
+      "response_ms": 318,
       "notes": ""
     },
     {
@@ -979,8 +979,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:12.812Z",
-      "response_ms": 171,
+      "last_checked": "2026-06-22T11:43:59.299Z",
+      "response_ms": 43,
       "notes": ""
     },
     {
@@ -992,8 +992,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:12.855Z",
-      "response_ms": 219,
+      "last_checked": "2026-06-22T11:43:58.957Z",
+      "response_ms": 37,
       "notes": ""
     },
     {
@@ -1005,8 +1005,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:13.605Z",
-      "response_ms": 453,
+      "last_checked": "2026-06-22T11:44:00.109Z",
+      "response_ms": 639,
       "notes": ""
     },
     {
@@ -1018,8 +1018,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-06-15T11:54:13.356Z",
-      "response_ms": 314,
+      "last_checked": "2026-06-22T11:43:59.246Z",
+      "response_ms": 122,
       "notes": ""
     }
   ]
