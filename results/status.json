@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-31T12:26:33.112Z",
+  "generated": "2026-09-07T11:20:47.426Z",
   "summary": {
     "total": 78,
     "up": 73,
-    "cors_ok": 72,
+    "cors_ok": 71,
     "cors_unknown": 5,
-    "cors_fail": 1
+    "cors_fail": 2
   },
   "results": [
     {
@@ -17,8 +17,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:11.832Z",
-      "response_ms": 630,
+      "last_checked": "2026-09-07T11:20:28.031Z",
+      "response_ms": 506,
       "notes": ""
     },
     {
@@ -30,8 +30,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:11.835Z",
-      "response_ms": 624,
+      "last_checked": "2026-09-07T11:20:27.992Z",
+      "response_ms": 534,
       "notes": ""
     },
     {
@@ -43,8 +43,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:11.004Z",
-      "response_ms": 299,
+      "last_checked": "2026-09-07T11:20:27.781Z",
+      "response_ms": 395,
       "notes": ""
     },
     {
@@ -56,8 +56,8 @@
         "allowed": false,
         "method": "playwright"
       },
-      "last_checked": "2026-08-31T12:26:11.682Z",
-      "response_ms": 137,
+      "last_checked": "2026-09-07T11:20:27.576Z",
+      "response_ms": 133,
       "notes": ""
     },
     {
@@ -69,8 +69,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:11.249Z",
-      "response_ms": 236,
+      "last_checked": "2026-09-07T11:20:27.442Z",
+      "response_ms": 253,
       "notes": ""
     },
     {
@@ -82,8 +82,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.131Z",
-      "response_ms": 943,
+      "last_checked": "2026-09-07T11:20:27.915Z",
+      "response_ms": 401,
       "notes": ""
     },
     {
@@ -95,8 +95,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.591Z",
-      "response_ms": 952,
+      "last_checked": "2026-09-07T11:20:28.166Z",
+      "response_ms": 438,
       "notes": ""
     },
     {
@@ -108,8 +108,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.029Z",
-      "response_ms": 207,
+      "last_checked": "2026-09-07T11:20:28.075Z",
+      "response_ms": 89,
       "notes": ""
     },
     {
@@ -121,8 +121,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.459Z",
-      "response_ms": 344,
+      "last_checked": "2026-09-07T11:20:28.721Z",
+      "response_ms": 742,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.485Z",
-      "response_ms": 339,
+      "last_checked": "2026-09-07T11:20:28.485Z",
+      "response_ms": 375,
       "notes": ""
     },
     {
@@ -147,8 +147,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.705Z",
-      "response_ms": 380,
+      "last_checked": "2026-09-07T11:20:28.408Z",
+      "response_ms": 260,
       "notes": ""
     },
     {
@@ -160,8 +160,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:13.572Z",
-      "response_ms": 531,
+      "last_checked": "2026-09-07T11:20:28.843Z",
+      "response_ms": 394,
       "notes": ""
     },
     {
@@ -173,8 +173,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:12.662Z",
-      "response_ms": 110,
+      "last_checked": "2026-09-07T11:20:28.292Z",
+      "response_ms": 75,
       "notes": ""
     },
     {
@@ -186,8 +186,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:13.183Z",
-      "response_ms": 449,
+      "last_checked": "2026-09-07T11:20:28.824Z",
+      "response_ms": 259,
       "notes": ""
     },
     {
@@ -199,8 +199,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:13.685Z",
-      "response_ms": 588,
+      "last_checked": "2026-09-07T11:20:29.168Z",
+      "response_ms": 379,
       "notes": ""
     },
     {
@@ -212,8 +212,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:13.677Z",
-      "response_ms": 558,
+      "last_checked": "2026-09-07T11:20:28.929Z",
+      "response_ms": 234,
       "notes": ""
     },
     {
@@ -225,8 +225,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.168Z",
-      "response_ms": 892,
+      "last_checked": "2026-09-07T11:20:29.819Z",
+      "response_ms": 733,
       "notes": ""
     },
     {
@@ -238,22 +238,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:13.510Z",
-      "response_ms": 187,
+      "last_checked": "2026-09-07T11:20:29.820Z",
+      "response_ms": 688,
       "notes": ""
     },
     {
       "id": "iss-position",
       "name": "ISS Position",
-      "up": true,
+      "up": false,
       "https": false,
       "cors": {
-        "allowed": true,
-        "method": "playwright"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-08-31T12:26:19.389Z",
-      "response_ms": 1162,
-      "notes": ""
+      "last_checked": "2026-09-07T11:20:38.844Z",
+      "response_ms": 10001,
+      "notes": "timeout"
     },
     {
       "id": "nager-date",
@@ -264,8 +264,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.659Z",
-      "response_ms": 193,
+      "last_checked": "2026-09-07T11:20:29.889Z",
+      "response_ms": 446,
       "notes": ""
     },
     {
@@ -277,8 +277,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.227Z",
-      "response_ms": 497,
+      "last_checked": "2026-09-07T11:20:29.902Z",
+      "response_ms": 543,
       "notes": ""
     },
     {
@@ -290,8 +290,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.411Z",
-      "response_ms": 632,
+      "last_checked": "2026-09-07T11:20:30.070Z",
+      "response_ms": 163,
       "notes": ""
     },
     {
@@ -303,8 +303,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-08-31T12:26:24.171Z",
-      "response_ms": 10002,
+      "last_checked": "2026-09-07T11:20:39.820Z",
+      "response_ms": 10000,
       "notes": "timeout"
     },
     {
@@ -316,8 +316,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.321Z",
-      "response_ms": 19,
+      "last_checked": "2026-09-07T11:20:30.042Z",
+      "response_ms": 59,
       "notes": ""
     },
     {
@@ -329,8 +329,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.519Z",
-      "response_ms": 110,
+      "last_checked": "2026-09-07T11:20:30.040Z",
+      "response_ms": 98,
       "notes": ""
     },
     {
@@ -342,8 +342,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:16.390Z",
-      "response_ms": 595,
+      "last_checked": "2026-09-07T11:20:41.967Z",
+      "response_ms": 7609,
       "notes": ""
     },
     {
@@ -355,8 +355,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:14.757Z",
-      "response_ms": 133,
+      "last_checked": "2026-09-07T11:20:30.236Z",
+      "response_ms": 56,
       "notes": ""
     },
     {
@@ -368,8 +368,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:15.925Z",
-      "response_ms": 619,
+      "last_checked": "2026-09-07T11:20:30.865Z",
+      "response_ms": 458,
       "notes": ""
     },
     {
@@ -381,8 +381,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:16.385Z",
-      "response_ms": 1191,
+      "last_checked": "2026-09-07T11:20:31.675Z",
+      "response_ms": 874,
       "notes": ""
     },
     {
@@ -394,8 +394,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-08-31T12:26:16.460Z",
-      "response_ms": 534,
+      "last_checked": "2026-09-07T11:20:31.421Z",
+      "response_ms": 556,
       "notes": "HTTP 504 (expected 200)"
     },
     {
@@ -407,8 +407,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:16.555Z",
-      "response_ms": 91,
+      "last_checked": "2026-09-07T11:20:31.545Z",
+      "response_ms": 72,
       "notes": ""
     },
     {
@@ -420,8 +420,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:16.474Z",
-      "response_ms": 55,
+      "last_checked": "2026-09-07T11:20:31.825Z",
+      "response_ms": 239,
       "notes": ""
     },
     {
@@ -433,8 +433,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:17.702Z",
-      "response_ms": 635,
+      "last_checked": "2026-09-07T11:20:32.554Z",
+      "response_ms": 443,
       "notes": ""
     },
     {
@@ -446,8 +446,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:16.747Z",
-      "response_ms": 182,
+      "last_checked": "2026-09-07T11:20:32.107Z",
+      "response_ms": 163,
       "notes": ""
     },
     {
@@ -459,8 +459,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:16.860Z",
-      "response_ms": 156,
+      "last_checked": "2026-09-07T11:20:32.258Z",
+      "response_ms": 64,
       "notes": ""
     },
     {
@@ -472,8 +472,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:17.610Z",
-      "response_ms": 205,
+      "last_checked": "2026-09-07T11:20:33.145Z",
+      "response_ms": 458,
       "notes": ""
     },
     {
@@ -485,8 +485,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:17.500Z",
-      "response_ms": 261,
+      "last_checked": "2026-09-07T11:20:33.012Z",
+      "response_ms": 183,
       "notes": ""
     },
     {
@@ -498,8 +498,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:17.592Z",
-      "response_ms": 55,
+      "last_checked": "2026-09-07T11:20:33.315Z",
+      "response_ms": 209,
       "notes": ""
     },
     {
@@ -511,8 +511,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:19.031Z",
-      "response_ms": 648,
+      "last_checked": "2026-09-07T11:20:34.200Z",
+      "response_ms": 468,
       "notes": ""
     },
     {
@@ -524,8 +524,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:17.749Z",
-      "response_ms": 94,
+      "last_checked": "2026-09-07T11:20:33.577Z",
+      "response_ms": 88,
       "notes": ""
     },
     {
@@ -537,8 +537,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:17.915Z",
-      "response_ms": 118,
+      "last_checked": "2026-09-07T11:20:33.854Z",
+      "response_ms": 170,
       "notes": ""
     },
     {
@@ -550,8 +550,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:18.115Z",
-      "response_ms": 276,
+      "last_checked": "2026-09-07T11:20:34.174Z",
+      "response_ms": 215,
       "notes": ""
     },
     {
@@ -563,8 +563,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:19.149Z",
-      "response_ms": 629,
+      "last_checked": "2026-09-07T11:20:35.045Z",
+      "response_ms": 443,
       "notes": ""
     },
     {
@@ -576,8 +576,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:18.397Z",
-      "response_ms": 171,
+      "last_checked": "2026-09-07T11:20:34.394Z",
+      "response_ms": 115,
       "notes": ""
     },
     {
@@ -586,11 +586,11 @@
       "up": true,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": false,
+        "method": "playwright"
       },
-      "last_checked": "2026-08-31T12:26:18.570Z",
-      "response_ms": 29,
+      "last_checked": "2026-09-07T11:20:35.074Z",
+      "response_ms": 273,
       "notes": ""
     },
     {
@@ -602,8 +602,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-08-31T12:26:19.040Z",
-      "response_ms": 470,
+      "last_checked": "2026-09-07T11:20:35.216Z",
+      "response_ms": 171,
       "notes": "HTTP 525 (expected 200)"
     },
     {
@@ -615,8 +615,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:24.598Z",
-      "response_ms": 1209,
+      "last_checked": "2026-09-07T11:20:47.426Z",
+      "response_ms": 160,
       "notes": ""
     },
     {
@@ -628,8 +628,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:19.607Z",
-      "response_ms": 284,
+      "last_checked": "2026-09-07T11:20:35.440Z",
+      "response_ms": 103,
       "notes": ""
     },
     {
@@ -641,8 +641,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:19.520Z",
-      "response_ms": 188,
+      "last_checked": "2026-09-07T11:20:35.618Z",
+      "response_ms": 95,
       "notes": ""
     },
     {
@@ -654,22 +654,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:20.750Z",
-      "response_ms": 769,
+      "last_checked": "2026-09-07T11:20:36.583Z",
+      "response_ms": 658,
       "notes": ""
     },
     {
       "id": "musicbrainz",
       "name": "MusicBrainz",
-      "up": true,
+      "up": false,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-08-31T12:26:20.766Z",
-      "response_ms": 781,
-      "notes": ""
+      "last_checked": "2026-09-07T11:20:37.065Z",
+      "response_ms": 482,
+      "notes": "HTTP 503 (expected 200)"
     },
     {
       "id": "itunes",
@@ -680,8 +680,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:19.803Z",
-      "response_ms": 172,
+      "last_checked": "2026-09-07T11:20:37.355Z",
+      "response_ms": 246,
       "notes": ""
     },
     {
@@ -693,22 +693,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:19.915Z",
-      "response_ms": 33,
+      "last_checked": "2026-09-07T11:20:37.418Z",
+      "response_ms": 30,
       "notes": ""
     },
     {
       "id": "picsum",
       "name": "Lorem Picsum",
-      "up": false,
+      "up": true,
       "https": true,
       "cors": {
-        "allowed": null,
-        "method": "unknown"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:29.915Z",
-      "response_ms": 10000,
-      "notes": "timeout"
+      "last_checked": "2026-09-07T11:20:38.059Z",
+      "response_ms": 502,
+      "notes": ""
     },
     {
       "id": "robohash",
@@ -719,8 +719,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:24.064Z",
-      "response_ms": 1054,
+      "last_checked": "2026-09-07T11:20:38.651Z",
+      "response_ms": 163,
       "notes": ""
     },
     {
@@ -732,8 +732,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:21.225Z",
-      "response_ms": 220,
+      "last_checked": "2026-09-07T11:20:39.072Z",
+      "response_ms": 239,
       "notes": ""
     },
     {
@@ -745,8 +745,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:22.208Z",
-      "response_ms": 235,
+      "last_checked": "2026-09-07T11:20:39.914Z",
+      "response_ms": 555,
       "notes": ""
     },
     {
@@ -758,8 +758,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:22.709Z",
-      "response_ms": 277,
+      "last_checked": "2026-09-07T11:20:39.353Z",
+      "response_ms": 98,
       "notes": ""
     },
     {
@@ -771,8 +771,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:22.814Z",
-      "response_ms": 60,
+      "last_checked": "2026-09-07T11:20:39.438Z",
+      "response_ms": 51,
       "notes": ""
     },
     {
@@ -784,8 +784,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:25.755Z",
-      "response_ms": 2463,
+      "last_checked": "2026-09-07T11:20:40.354Z",
+      "response_ms": 577,
       "notes": ""
     },
     {
@@ -797,8 +797,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:26.140Z",
-      "response_ms": 1398,
+      "last_checked": "2026-09-07T11:20:41.752Z",
+      "response_ms": 1058,
       "notes": ""
     },
     {
@@ -810,8 +810,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:25.814Z",
-      "response_ms": 1029,
+      "last_checked": "2026-09-07T11:20:40.845Z",
+      "response_ms": 471,
       "notes": ""
     },
     {
@@ -823,8 +823,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:25.250Z",
-      "response_ms": 461,
+      "last_checked": "2026-09-07T11:20:40.606Z",
+      "response_ms": 185,
       "notes": ""
     },
     {
@@ -836,8 +836,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:26.481Z",
-      "response_ms": 629,
+      "last_checked": "2026-09-07T11:20:41.750Z",
+      "response_ms": 489,
       "notes": ""
     },
     {
@@ -849,8 +849,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.430Z",
-      "response_ms": 1011,
+      "last_checked": "2026-09-07T11:20:42.764Z",
+      "response_ms": 1589,
       "notes": ""
     },
     {
@@ -862,8 +862,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:26.122Z",
-      "response_ms": 158,
+      "last_checked": "2026-09-07T11:20:41.987Z",
+      "response_ms": 123,
       "notes": ""
     },
     {
@@ -875,8 +875,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.352Z",
-      "response_ms": 623,
+      "last_checked": "2026-09-07T11:20:42.689Z",
+      "response_ms": 484,
       "notes": ""
     },
     {
@@ -888,8 +888,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:26.353Z",
-      "response_ms": 23,
+      "last_checked": "2026-09-07T11:20:42.131Z",
+      "response_ms": 43,
       "notes": ""
     },
     {
@@ -901,8 +901,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.007Z",
-      "response_ms": 438,
+      "last_checked": "2026-09-07T11:20:42.299Z",
+      "response_ms": 191,
       "notes": ""
     },
     {
@@ -914,8 +914,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.210Z",
-      "response_ms": 383,
+      "last_checked": "2026-09-07T11:20:45.419Z",
+      "response_ms": 3077,
       "notes": ""
     },
     {
@@ -927,8 +927,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:28.104Z",
-      "response_ms": 639,
+      "last_checked": "2026-09-07T11:20:43.207Z",
+      "response_ms": 719,
       "notes": ""
     },
     {
@@ -940,8 +940,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.526Z",
-      "response_ms": 125,
+      "last_checked": "2026-09-07T11:20:42.859Z",
+      "response_ms": 131,
       "notes": ""
     },
     {
@@ -953,8 +953,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.644Z",
-      "response_ms": 150,
+      "last_checked": "2026-09-07T11:20:42.972Z",
+      "response_ms": 108,
       "notes": ""
     },
     {
@@ -966,8 +966,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.963Z",
-      "response_ms": 298,
+      "last_checked": "2026-09-07T11:20:43.255Z",
+      "response_ms": 280,
       "notes": ""
     },
     {
@@ -979,8 +979,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:28.183Z",
-      "response_ms": 109,
+      "last_checked": "2026-09-07T11:20:43.472Z",
+      "response_ms": 72,
       "notes": ""
     },
     {
@@ -992,8 +992,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:27.857Z",
-      "response_ms": 149,
+      "last_checked": "2026-09-07T11:20:43.614Z",
+      "response_ms": 217,
       "notes": ""
     },
     {
@@ -1005,22 +1005,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:29.086Z",
-      "response_ms": 627,
+      "last_checked": "2026-09-07T11:20:44.030Z",
+      "response_ms": 454,
       "notes": ""
     },
     {
       "id": "foxapi",
       "name": "RandomFox",
-      "up": false,
+      "up": true,
       "https": true,
       "cors": {
-        "allowed": null,
-        "method": "unknown"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-08-31T12:26:33.112Z",
-      "response_ms": 5148,
-      "notes": "HTTP 525 (expected 200)"
+      "last_checked": "2026-09-07T11:20:44.052Z",
+      "response_ms": 320,
+      "notes": ""
     }
   ]
 }
