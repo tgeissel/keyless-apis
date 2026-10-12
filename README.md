@@ -3,7 +3,7 @@
 A catalog of public APIs that require no API key and support CORS for browser use. Every entry is automatically tested weekly — uptime, HTTPS, and a real browser `fetch()` for CORS.
 
 <!-- BADGE:START -->
-![API Status](https://img.shields.io/badge/APIs-97%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--10--05-blue)
+![API Status](https://img.shields.io/badge/APIs-94%25%20live-brightgreen)  ![Last Check](https://img.shields.io/badge/last%20check-2026--10--12-blue)
 <!-- BADGE:END -->
 
 Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](results/status.json)
@@ -11,111 +11,111 @@ Machine-readable: [`data/apis.json`](data/apis.json) · [`results/status.json`](
 ## API Status
 
 <!-- STATUS:START -->
-*Last generated: 2026-10-05T13:21:28.795Z — 76/78 APIs live, 73 CORS-verified*
+*Last generated: 2026-10-12T14:10:48.361Z — 73/78 APIs live, 70 CORS-verified*
 
 | Name | | CORS | Status | Last Checked |
 |------|---|------|:------:|:------------:|
 | **Animals** | | | | |
-| [Cat Facts](https://catfact.ninja/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Dog CEO](https://dog.ceo/dog-api/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Dog Facts](https://dogapi.dog/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [CATAAS](https://cataas.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [RandomFox](https://randomfox.ca/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Cat Facts](https://catfact.ninja/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Dog CEO](https://dog.ceo/dog-api/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Dog Facts](https://dogapi.dog/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [CATAAS](https://cataas.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [RandomFox](https://randomfox.ca/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Art** | | | | |
-| [Art Institute Chicago](https://api.artic.edu/docs/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Art Institute Chicago](https://api.artic.edu/docs/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Books** | | | | |
-| [Open Library](https://openlibrary.org/developers/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open Library Search](https://openlibrary.org/developers/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Open Library](https://openlibrary.org/developers/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open Library Search](https://openlibrary.org/developers/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Calendar** | | | | |
-| [Nager.Date](https://date.nager.at/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Nager.Date](https://date.nager.at/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Design** | | | | |
-| [The Color API](https://www.thecolorapi.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [The Color API](https://www.thecolorapi.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Dev** | | | | |
-| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Random User](https://randomuser.me/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [GitHub Zen](https://docs.github.com/en/rest) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [httpbin](https://httpbin.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [UUID API](https://www.uuidtools.com/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [isEven API](https://isevenapi.xyz/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Random User](https://randomuser.me/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [GitHub Zen](https://docs.github.com/en/rest) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [httpbin](https://httpbin.org/) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-12 |
+| [UUID API](https://www.uuidtools.com/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [isEven API](https://isevenapi.xyz/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Entertainment** | | | | |
-| [Jikan](https://jikan.moe/) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-05 |
+| [Jikan](https://jikan.moe/) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-12 |
 | **Finance** | | | | |
-| [Frankfurter](https://www.frankfurter.app/docs) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [ExchangeRate-API](https://www.exchangerate-api.com/docs/free) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [CoinGecko](https://www.coingecko.com/en/api/documentation) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Frankfurter](https://www.frankfurter.app/docs) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [ExchangeRate-API](https://www.exchangerate-api.com/docs/free) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [CoinGecko](https://www.coingecko.com/en/api/documentation) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Food** | | | | |
-| [TheMealDB](https://www.themealdb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [TheCocktailDB](https://www.thecocktaildb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open Brewery DB](https://www.openbrewerydb.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open Food Facts](https://world.openfoodfacts.org/data) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [CocktailDB Search](https://www.thecocktaildb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [CocktailDB Categories](https://www.thecocktaildb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [TheMealDB](https://www.themealdb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [TheCocktailDB](https://www.thecocktaildb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open Brewery DB](https://www.openbrewerydb.org/) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-12 |
+| [Open Food Facts](https://world.openfoodfacts.org/data) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [CocktailDB Search](https://www.thecocktaildb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [CocktailDB Categories](https://www.thecocktaildb.com/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Fun** | | | | |
-| [Advice Slip](https://api.adviceslip.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Chuck Norris Jokes](https://api.chucknorris.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [JokeAPI](https://jokeapi.dev/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Official Joke API](https://github.com/15Dkatz/official_joke_api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Kanye.rest](https://kanye.rest/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Useless Facts](https://uselessfacts.jsph.pl/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Bored API v2](https://bored.api.lewagon.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Advice Slip](https://api.adviceslip.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Chuck Norris Jokes](https://api.chucknorris.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [JokeAPI](https://jokeapi.dev/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Official Joke API](https://github.com/15Dkatz/official_joke_api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Kanye.rest](https://kanye.rest/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Useless Facts](https://uselessfacts.jsph.pl/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Bored API v2](https://bored.api.lewagon.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Games** | | | | |
-| [Deck of Cards](https://deckofcardsapi.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [PokéAPI](https://pokeapi.co/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [TCGdex](https://tcgdex.dev/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Splatoon3.ink](https://splatoon3.ink/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Deck of Cards](https://deckofcardsapi.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [PokéAPI](https://pokeapi.co/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [TCGdex](https://tcgdex.dev/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Splatoon3.ink](https://splatoon3.ink/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Geo** | | | | |
-| [Nominatim OSM](https://nominatim.org/release-docs/latest/api/Search/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [REST Countries](https://restcountries.com/) | | ❌ No *(playwright)* | 🟢 | 2026-10-05 |
-| [Zippopotam](https://www.zippopotam.us/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Countries Now](https://countriesnow.space/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [REST Countries v2](https://restcountries.com/) | | ❌ No *(playwright)* | 🟢 | 2026-10-05 |
-| [Nominatim Reverse](https://nominatim.org/release-docs/latest/api/Reverse/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Nominatim OSM](https://nominatim.org/release-docs/latest/api/Search/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [REST Countries](https://restcountries.com/) | | ❌ No *(playwright)* | 🟢 | 2026-10-12 |
+| [Zippopotam](https://www.zippopotam.us/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Countries Now](https://countriesnow.space/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [REST Countries v2](https://restcountries.com/) | | ❌ No *(playwright)* | 🟢 | 2026-10-12 |
+| [Nominatim Reverse](https://nominatim.org/release-docs/latest/api/Reverse/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Health** | | | | |
-| [disease.sh](https://disease.sh/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [disease.sh](https://disease.sh/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Images** | | | | |
-| [Lorem Picsum](https://picsum.photos/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [RoboHash](https://robohash.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Lorem Picsum](https://picsum.photos/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [RoboHash](https://robohash.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Knowledge** | | | | |
-| [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Wikidata](https://www.wikidata.org/w/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Wikidata](https://www.wikidata.org/w/api.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Language** | | | | |
-| [Datamuse](https://www.datamuse.com/api/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Free Dictionary](https://dictionaryapi.dev/) | | ❌ No *(playwright)* | 🟢 | 2026-10-05 |
+| [Datamuse](https://www.datamuse.com/api/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Free Dictionary](https://dictionaryapi.dev/) | | ❌ No *(playwright)* | 🟢 | 2026-10-12 |
 | **Literature** | | | | |
-| [PoetryDB](https://poetrydb.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Bible API](https://bible-api.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Quran API](https://quran.api-docs.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [PoetryDB](https://poetrydb.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Bible API](https://bible-api.com/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Quran API](https://quran.api-docs.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Music** | | | | |
-| [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [iTunes Search](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [iTunes Search](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Network** | | | | |
-| [ip-api](https://ip-api.com/docs) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [ipinfo.io](https://ipinfo.io/developers) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [ip-api](https://ip-api.com/docs) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [ipinfo.io](https://ipinfo.io/developers) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Science** | | | | |
-| [USGS Earthquakes](https://earthquake.usgs.gov/fdsnws/event/1/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [ISS Position](http://open-notify.org/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Sunrise Sunset](https://sunrise-sunset.org/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [SpaceX API](https://github.com/r-spacex/SpaceX-API) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-05 |
-| [Open Notify Astronauts](http://open-notify.org/Open-Notify-API/People-In-Space/) | | ✅ Yes *(playwright)* | 🟢 | 2026-10-05 |
-| [Carbon Intensity UK](https://carbon-intensity.github.io/api-definitions/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [USGS Earthquakes](https://earthquake.usgs.gov/fdsnws/event/1/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [ISS Position](http://open-notify.org/) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-12 |
+| [Sunrise Sunset](https://sunrise-sunset.org/api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [SpaceX API](https://github.com/r-spacex/SpaceX-API) | | ❓ Unknown *(unknown)* | 🔴 | 2026-10-12 |
+| [Open Notify Astronauts](http://open-notify.org/Open-Notify-API/People-In-Space/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Carbon Intensity UK](https://carbon-intensity.github.io/api-definitions/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Social** | | | | |
-| [Genderize](https://genderize.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Agify](https://agify.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Nationalize](https://nationalize.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Genderize](https://genderize.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Agify](https://agify.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Nationalize](https://nationalize.io/) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Trivia** | | | | |
-| [Open Trivia DB](https://opentdb.com/api_config.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open Trivia Categories](https://opentdb.com/api_config.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Open Trivia DB](https://opentdb.com/api_config.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open Trivia Categories](https://opentdb.com/api_config.php) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 | **Weather** | | | | |
-| [Open-Meteo](https://open-meteo.com/en/docs) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Air Quality](https://open-meteo.com/en/docs/air-quality-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [wttr.in](https://wttr.in/:help) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Marine](https://open-meteo.com/en/docs/marine-weather-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Flood](https://open-meteo.com/en/docs/flood-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Historical](https://open-meteo.com/en/docs/historical-weather-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Climate](https://open-meteo.com/en/docs/climate-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
-| [Open-Meteo Ensemble](https://open-meteo.com/en/docs/ensemble-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-05 |
+| [Open-Meteo](https://open-meteo.com/en/docs) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Air Quality](https://open-meteo.com/en/docs/air-quality-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [wttr.in](https://wttr.in/:help) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Marine](https://open-meteo.com/en/docs/marine-weather-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Flood](https://open-meteo.com/en/docs/flood-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Historical](https://open-meteo.com/en/docs/historical-weather-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Climate](https://open-meteo.com/en/docs/climate-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
+| [Open-Meteo Ensemble](https://open-meteo.com/en/docs/ensemble-api) | | ✅ Yes *(header)* | 🟢 | 2026-10-12 |
 <!-- STATUS:END -->
 
 ## Usage
