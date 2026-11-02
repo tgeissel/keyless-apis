@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T12:05:52.698Z",
+  "generated": "2026-11-02T14:31:33.724Z",
   "summary": {
     "total": 78,
-    "up": 73,
-    "cors_ok": 73,
-    "cors_unknown": 5,
-    "cors_fail": 0
+    "up": 72,
+    "cors_ok": 71,
+    "cors_unknown": 6,
+    "cors_fail": 1
   },
   "results": [
     {
@@ -17,8 +17,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.155Z",
-      "response_ms": 414,
+      "last_checked": "2026-11-02T14:31:13.895Z",
+      "response_ms": 344,
       "notes": ""
     },
     {
@@ -30,8 +30,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.137Z",
-      "response_ms": 404,
+      "last_checked": "2026-11-02T14:31:13.992Z",
+      "response_ms": 498,
       "notes": ""
     },
     {
@@ -43,8 +43,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.016Z",
-      "response_ms": 376,
+      "last_checked": "2026-11-02T14:31:13.755Z",
+      "response_ms": 414,
       "notes": ""
     },
     {
@@ -56,8 +56,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:38.630Z",
-      "response_ms": 109,
+      "last_checked": "2026-11-02T14:31:13.693Z",
+      "response_ms": 346,
       "notes": ""
     },
     {
@@ -69,8 +69,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:38.665Z",
-      "response_ms": 172,
+      "last_checked": "2026-11-02T14:31:13.933Z",
+      "response_ms": 584,
       "notes": ""
     },
     {
@@ -82,8 +82,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.009Z",
-      "response_ms": 306,
+      "last_checked": "2026-11-02T14:31:14.181Z",
+      "response_ms": 359,
       "notes": ""
     },
     {
@@ -95,8 +95,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.893Z",
-      "response_ms": 1129,
+      "last_checked": "2026-11-02T14:31:14.454Z",
+      "response_ms": 562,
       "notes": ""
     },
     {
@@ -108,8 +108,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.276Z",
-      "response_ms": 170,
+      "last_checked": "2026-11-02T14:31:14.153Z",
+      "response_ms": 104,
       "notes": ""
     },
     {
@@ -121,8 +121,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.123Z",
-      "response_ms": 79,
+      "last_checked": "2026-11-02T14:31:14.363Z",
+      "response_ms": 251,
       "notes": ""
     },
     {
@@ -134,8 +134,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.825Z",
-      "response_ms": 369,
+      "last_checked": "2026-11-02T14:31:14.569Z",
+      "response_ms": 354,
       "notes": ""
     },
     {
@@ -147,8 +147,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.699Z",
-      "response_ms": 351,
+      "last_checked": "2026-11-02T14:31:14.798Z",
+      "response_ms": 410,
       "notes": ""
     },
     {
@@ -160,8 +160,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.764Z",
-      "response_ms": 292,
+      "last_checked": "2026-11-02T14:31:15.135Z",
+      "response_ms": 411,
       "notes": ""
     },
     {
@@ -173,8 +173,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.416Z",
-      "response_ms": 75,
+      "last_checked": "2026-11-02T14:31:14.863Z",
+      "response_ms": 348,
       "notes": ""
     },
     {
@@ -186,8 +186,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:39.879Z",
-      "response_ms": 321,
+      "last_checked": "2026-11-02T14:31:15.089Z",
+      "response_ms": 376,
       "notes": ""
     },
     {
@@ -199,8 +199,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.136Z",
-      "response_ms": 237,
+      "last_checked": "2026-11-02T14:31:15.120Z",
+      "response_ms": 293,
       "notes": ""
     },
     {
@@ -212,8 +212,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.032Z",
-      "response_ms": 121,
+      "last_checked": "2026-11-02T14:31:15.602Z",
+      "response_ms": 450,
       "notes": ""
     },
     {
@@ -225,8 +225,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.218Z",
-      "response_ms": 138,
+      "last_checked": "2026-11-02T14:31:15.562Z",
+      "response_ms": 438,
       "notes": ""
     },
     {
@@ -238,8 +238,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.423Z",
-      "response_ms": 117,
+      "last_checked": "2026-11-02T14:31:15.705Z",
+      "response_ms": 223,
       "notes": ""
     },
     {
@@ -251,8 +251,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:50.583Z",
-      "response_ms": 390,
+      "last_checked": "2026-11-02T14:31:24.960Z",
+      "response_ms": 190,
       "notes": ""
     },
     {
@@ -264,8 +264,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.894Z",
-      "response_ms": 253,
+      "last_checked": "2026-11-02T14:31:16.043Z",
+      "response_ms": 292,
       "notes": ""
     },
     {
@@ -277,8 +277,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-10-26T12:05:40.404Z",
-      "response_ms": 268,
+      "last_checked": "2026-11-02T14:31:15.803Z",
+      "response_ms": 241,
       "notes": "HTTP 403 (expected 200)"
     },
     {
@@ -290,8 +290,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.638Z",
-      "response_ms": 318,
+      "last_checked": "2026-11-02T14:31:16.046Z",
+      "response_ms": 234,
       "notes": ""
     },
     {
@@ -303,8 +303,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-10-26T12:05:40.567Z",
-      "response_ms": 163,
+      "last_checked": "2026-11-02T14:31:15.927Z",
+      "response_ms": 222,
       "notes": "HTTP 403 (expected 200)"
     },
     {
@@ -316,8 +316,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.559Z",
-      "response_ms": 103,
+      "last_checked": "2026-11-02T14:31:16.027Z",
+      "response_ms": 130,
       "notes": ""
     },
     {
@@ -329,8 +329,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.683Z",
-      "response_ms": 50,
+      "last_checked": "2026-11-02T14:31:16.874Z",
+      "response_ms": 610,
       "notes": ""
     },
     {
@@ -342,8 +342,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.689Z",
-      "response_ms": 574,
+      "last_checked": "2026-11-02T14:31:21.530Z",
+      "response_ms": 2760,
       "notes": ""
     },
     {
@@ -355,8 +355,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:40.664Z",
-      "response_ms": 14,
+      "last_checked": "2026-11-02T14:31:16.282Z",
+      "response_ms": 109,
       "notes": ""
     },
     {
@@ -368,8 +368,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.468Z",
-      "response_ms": 417,
+      "last_checked": "2026-11-02T14:31:17.100Z",
+      "response_ms": 532,
       "notes": ""
     },
     {
@@ -381,8 +381,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.823Z",
-      "response_ms": 775,
+      "last_checked": "2026-11-02T14:31:17.540Z",
+      "response_ms": 774,
       "notes": ""
     },
     {
@@ -394,8 +394,8 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-10-26T12:05:41.241Z",
-      "response_ms": 347,
+      "last_checked": "2026-11-02T14:31:17.165Z",
+      "response_ms": 291,
       "notes": "fetch error: fetch failed"
     },
     {
@@ -407,8 +407,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.363Z",
-      "response_ms": 42,
+      "last_checked": "2026-11-02T14:31:17.377Z",
+      "response_ms": 138,
       "notes": ""
     },
     {
@@ -420,8 +420,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.383Z",
-      "response_ms": 14,
+      "last_checked": "2026-11-02T14:31:17.318Z",
+      "response_ms": 90,
       "notes": ""
     },
     {
@@ -433,8 +433,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.135Z",
-      "response_ms": 381,
+      "last_checked": "2026-11-02T14:31:18.296Z",
+      "response_ms": 496,
       "notes": ""
     },
     {
@@ -446,8 +446,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.654Z",
-      "response_ms": 139,
+      "last_checked": "2026-11-02T14:31:17.874Z",
+      "response_ms": 328,
       "notes": ""
     },
     {
@@ -459,8 +459,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:41.788Z",
-      "response_ms": 96,
+      "last_checked": "2026-11-02T14:31:17.873Z",
+      "response_ms": 186,
       "notes": ""
     },
     {
@@ -472,8 +472,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.355Z",
-      "response_ms": 406,
+      "last_checked": "2026-11-02T14:31:18.648Z",
+      "response_ms": 573,
       "notes": ""
     },
     {
@@ -485,8 +485,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.257Z",
-      "response_ms": 201,
+      "last_checked": "2026-11-02T14:31:18.925Z",
+      "response_ms": 526,
       "notes": ""
     },
     {
@@ -498,8 +498,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.010Z",
-      "response_ms": 94,
+      "last_checked": "2026-11-02T14:31:18.857Z",
+      "response_ms": 308,
       "notes": ""
     },
     {
@@ -511,8 +511,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.921Z",
-      "response_ms": 408,
+      "last_checked": "2026-11-02T14:31:19.946Z",
+      "response_ms": 592,
       "notes": ""
     },
     {
@@ -524,8 +524,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.530Z",
-      "response_ms": 106,
+      "last_checked": "2026-11-02T14:31:19.296Z",
+      "response_ms": 135,
       "notes": ""
     },
     {
@@ -537,8 +537,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.368Z",
-      "response_ms": 64,
+      "last_checked": "2026-11-02T14:31:19.211Z",
+      "response_ms": 196,
       "notes": ""
     },
     {
@@ -550,8 +550,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.695Z",
-      "response_ms": 315,
+      "last_checked": "2026-11-02T14:31:19.739Z",
+      "response_ms": 324,
       "notes": ""
     },
     {
@@ -563,8 +563,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.118Z",
-      "response_ms": 377,
+      "last_checked": "2026-11-02T14:31:20.272Z",
+      "response_ms": 508,
       "notes": ""
     },
     {
@@ -576,8 +576,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:42.697Z",
-      "response_ms": 117,
+      "last_checked": "2026-11-02T14:31:19.949Z",
+      "response_ms": 105,
       "notes": ""
     },
     {
@@ -586,11 +586,11 @@
       "up": true,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": false,
+        "method": "playwright"
       },
-      "last_checked": "2026-10-26T12:05:42.957Z",
-      "response_ms": 104,
+      "last_checked": "2026-11-02T14:31:21.268Z",
+      "response_ms": 567,
       "notes": ""
     },
     {
@@ -602,7 +602,7 @@
         "allowed": null,
         "method": "unknown"
       },
-      "last_checked": "2026-10-26T12:05:52.698Z",
+      "last_checked": "2026-11-02T14:31:29.950Z",
       "response_ms": 10001,
       "notes": "timeout"
     },
@@ -615,8 +615,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.298Z",
-      "response_ms": 64,
+      "last_checked": "2026-11-02T14:31:20.508Z",
+      "response_ms": 40,
       "notes": ""
     },
     {
@@ -628,8 +628,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.009Z",
-      "response_ms": 37,
+      "last_checked": "2026-11-02T14:31:20.819Z",
+      "response_ms": 139,
       "notes": ""
     },
     {
@@ -641,8 +641,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.364Z",
-      "response_ms": 241,
+      "last_checked": "2026-11-02T14:31:21.494Z",
+      "response_ms": 508,
       "notes": ""
     },
     {
@@ -654,8 +654,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.833Z",
-      "response_ms": 447,
+      "last_checked": "2026-11-02T14:31:22.127Z",
+      "response_ms": 676,
       "notes": ""
     },
     {
@@ -667,8 +667,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.753Z",
-      "response_ms": 1155,
+      "last_checked": "2026-11-02T14:31:24.469Z",
+      "response_ms": 2386,
       "notes": ""
     },
     {
@@ -680,8 +680,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.653Z",
-      "response_ms": 196,
+      "last_checked": "2026-11-02T14:31:21.892Z",
+      "response_ms": 274,
       "notes": ""
     },
     {
@@ -693,8 +693,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:43.778Z",
-      "response_ms": 75,
+      "last_checked": "2026-11-02T14:31:22.062Z",
+      "response_ms": 89,
       "notes": ""
     },
     {
@@ -706,8 +706,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.120Z",
-      "response_ms": 159,
+      "last_checked": "2026-11-02T14:31:23.012Z",
+      "response_ms": 720,
       "notes": ""
     },
     {
@@ -719,8 +719,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.864Z",
-      "response_ms": 520,
+      "last_checked": "2026-11-02T14:31:25.765Z",
+      "response_ms": 2259,
       "notes": ""
     },
     {
@@ -732,8 +732,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.212Z",
-      "response_ms": 62,
+      "last_checked": "2026-11-02T14:31:23.238Z",
+      "response_ms": 93,
       "notes": ""
     },
     {
@@ -745,8 +745,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.808Z",
-      "response_ms": 445,
+      "last_checked": "2026-11-02T14:31:23.838Z",
+      "response_ms": 409,
       "notes": ""
     },
     {
@@ -758,8 +758,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.796Z",
-      "response_ms": 21,
+      "last_checked": "2026-11-02T14:31:24.100Z",
+      "response_ms": 130,
       "notes": ""
     },
     {
@@ -771,8 +771,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:44.906Z",
-      "response_ms": 65,
+      "last_checked": "2026-11-02T14:31:24.355Z",
+      "response_ms": 124,
       "notes": ""
     },
     {
@@ -784,8 +784,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:45.736Z",
-      "response_ms": 626,
+      "last_checked": "2026-11-02T14:31:25.460Z",
+      "response_ms": 713,
       "notes": ""
     },
     {
@@ -797,22 +797,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:45.838Z",
-      "response_ms": 502,
+      "last_checked": "2026-11-02T14:31:25.784Z",
+      "response_ms": 752,
       "notes": ""
     },
     {
       "id": "open-meteo-historical",
       "name": "Open-Meteo Historical",
-      "up": true,
+      "up": false,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-10-26T12:05:45.725Z",
-      "response_ms": 409,
-      "notes": ""
+      "last_checked": "2026-11-02T14:31:25.499Z",
+      "response_ms": 539,
+      "notes": "HTTP 503 (expected 200)"
     },
     {
       "id": "colorcombinations",
@@ -823,22 +823,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:45.804Z",
-      "response_ms": 59,
+      "last_checked": "2026-11-02T14:31:25.806Z",
+      "response_ms": 217,
       "notes": ""
     },
     {
       "id": "open-meteo-climate",
       "name": "Open-Meteo Climate",
-      "up": true,
+      "up": false,
       "https": true,
       "cors": {
-        "allowed": true,
-        "method": "header"
+        "allowed": null,
+        "method": "unknown"
       },
-      "last_checked": "2026-10-26T12:05:46.537Z",
-      "response_ms": 412,
-      "notes": ""
+      "last_checked": "2026-11-02T14:31:26.025Z",
+      "response_ms": 525,
+      "notes": "HTTP 503 (expected 200)"
     },
     {
       "id": "boredapi-v2",
@@ -849,8 +849,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:47.238Z",
-      "response_ms": 680,
+      "last_checked": "2026-11-02T14:31:27.659Z",
+      "response_ms": 806,
       "notes": ""
     },
     {
@@ -862,8 +862,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:46.927Z",
-      "response_ms": 404,
+      "last_checked": "2026-11-02T14:31:26.237Z",
+      "response_ms": 228,
       "notes": ""
     },
     {
@@ -875,8 +875,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:47.325Z",
-      "response_ms": 401,
+      "last_checked": "2026-11-02T14:31:26.880Z",
+      "response_ms": 551,
       "notes": ""
     },
     {
@@ -888,22 +888,22 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:47.119Z",
-      "response_ms": 64,
+      "last_checked": "2026-11-02T14:31:26.442Z",
+      "response_ms": 167,
       "notes": ""
     },
     {
       "id": "tcgdex",
       "name": "TCGdex",
-      "up": false,
+      "up": true,
       "https": true,
       "cors": {
-        "allowed": null,
-        "method": "unknown"
+        "allowed": true,
+        "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:47.223Z",
-      "response_ms": 104,
-      "notes": "HTTP 503 (expected 200)"
+      "last_checked": "2026-11-02T14:31:26.560Z",
+      "response_ms": 171,
+      "notes": ""
     },
     {
       "id": "openlibrary-search",
@@ -914,8 +914,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:48.655Z",
-      "response_ms": 896,
+      "last_checked": "2026-11-02T14:31:33.724Z",
+      "response_ms": 6796,
       "notes": ""
     },
     {
@@ -927,8 +927,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:47.918Z",
-      "response_ms": 417,
+      "last_checked": "2026-11-02T14:31:27.600Z",
+      "response_ms": 717,
       "notes": ""
     },
     {
@@ -940,8 +940,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:47.511Z",
-      "response_ms": 97,
+      "last_checked": "2026-11-02T14:31:27.509Z",
+      "response_ms": 531,
       "notes": ""
     },
     {
@@ -953,8 +953,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:48.148Z",
-      "response_ms": 291,
+      "last_checked": "2026-11-02T14:31:27.827Z",
+      "response_ms": 160,
       "notes": ""
     },
     {
@@ -966,8 +966,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:48.086Z",
-      "response_ms": 114,
+      "last_checked": "2026-11-02T14:31:27.918Z",
+      "response_ms": 173,
       "notes": ""
     },
     {
@@ -979,8 +979,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:48.602Z",
-      "response_ms": 83,
+      "last_checked": "2026-11-02T14:31:28.455Z",
+      "response_ms": 317,
       "notes": ""
     },
     {
@@ -992,8 +992,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:48.626Z",
-      "response_ms": 249,
+      "last_checked": "2026-11-02T14:31:28.150Z",
+      "response_ms": 189,
       "notes": ""
     },
     {
@@ -1005,8 +1005,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:49.274Z",
-      "response_ms": 318,
+      "last_checked": "2026-11-02T14:31:28.754Z",
+      "response_ms": 462,
       "notes": ""
     },
     {
@@ -1018,8 +1018,8 @@
         "allowed": true,
         "method": "header"
       },
-      "last_checked": "2026-10-26T12:05:49.401Z",
-      "response_ms": 587,
+      "last_checked": "2026-11-02T14:31:29.089Z",
+      "response_ms": 677,
       "notes": ""
     }
   ]
